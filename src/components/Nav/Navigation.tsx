@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
-import { KialiDispatch } from 'types/Redux';
+import { KialiDispatch } from '../../types/Redux';
 import { RenderPage } from './RenderPage';
 import { RouteComponentProps } from 'react-router';
 import { MastheadItems } from './Masthead/Masthead';

@@ -1,9 +1,9 @@
 import * as React from 'react';
 import { style } from 'typestyle';
-import { prettyProtocol } from 'types/Graph';
+import { prettyProtocol } from '../../../types/Graph';
 import { EdgeContextMenuProps } from '../CytoscapeContextMenu';
-import { getTitle } from 'pages/Graph/SummaryPanelCommon';
-import { renderBadgedName } from 'pages/Graph/SummaryLink';
+import { getTitle } from '../../../pages/Graph/SummaryPanelCommon';
+import { renderBadgedName } from '../../../pages/Graph/SummaryLink';
 import { decoratedNodeData } from '../CytoscapeGraphUtils';
 import { EdgeSingular } from 'cytoscape';
 

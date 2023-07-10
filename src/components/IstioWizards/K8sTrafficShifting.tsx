@@ -5,7 +5,7 @@ import { style } from 'typestyle';
 import { Button, ButtonVariant, TooltipPosition } from '@patternfly/react-core';
 import { EqualizerIcon } from '@patternfly/react-icons';
 import { getDefaultBackendRefs } from './WizardActions';
-import { PFBadge, PFBadges } from 'components/Pf/PfBadges';
+import { PFBadge, PFBadges } from '../../components/Pf/PfBadges';
 import { ServiceOverview } from '../../types/ServiceList';
 
 type Props = {

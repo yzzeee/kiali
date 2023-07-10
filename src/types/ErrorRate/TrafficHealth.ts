@@ -3,7 +3,7 @@ import { ThresholdStatus } from '../Health';
 import { NodeType, ProtocolWithTraffic } from '../Graph';
 import { aggregate, checkExpr, getRateHealthConfig, transformEdgeResponses } from './utils';
 import { calculateStatusGraph } from './GraphEdgeStatus';
-import { TrafficItem } from 'components/TrafficList/TrafficDetails';
+import { TrafficItem } from '../../components/TrafficList/TrafficDetails';
 import { RateHealth } from '../HealthAnnotation';
 
 /*

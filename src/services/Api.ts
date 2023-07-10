@@ -5,7 +5,7 @@ import { App } from '../types/App';
 import { AppList } from '../types/AppList';
 import { AuthInfo } from '../types/Auth';
 import { DurationInSeconds, HTTP_VERBS, Password, TimeInSeconds, UserName } from '../types/Common';
-import { DashboardModel } from 'types/Dashboards';
+import { DashboardModel } from '../types/Dashboards';
 import { GrafanaInfo } from '../types/GrafanaInfo';
 import { GraphDefinition, NodeParamsType, NodeType } from '../types/Graph';
 import {
@@ -39,10 +39,10 @@ import { KialiCrippledFeatures, ServerConfig } from '../types/ServerConfig';
 import { StatusState } from '../types/StatusState';
 import { ServiceDetailsInfo } from '../types/ServiceInfo';
 import { ServiceList } from '../types/ServiceList';
-import { Span, TracingQuery } from 'types/Tracing';
+import { Span, TracingQuery } from '../types/Tracing';
 import { TLSStatus } from '../types/TLSStatus';
 import { Workload, WorkloadNamespaceResponse } from '../types/Workload';
-import { CertsInfo } from 'types/CertsInfo';
+import { CertsInfo } from '../types/CertsInfo';
 export const ANONYMOUS_USER = 'anonymous';
 
 export interface Response<T> {

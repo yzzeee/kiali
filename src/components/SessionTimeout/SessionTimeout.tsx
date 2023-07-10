@@ -4,7 +4,7 @@ import { WarningTriangleIcon } from '@patternfly/react-icons';
 import { AuthStrategy } from '../../types/Auth';
 import { LoginSession } from '../../store/Store';
 import { authenticationConfig } from '../../config/AuthenticationConfig';
-import { PFColors } from 'components/Pf/PfColors';
+import { PFColors } from '../../components/Pf/PfColors';
 
 type SessionTimeoutProps = {
   onLogout: () => void;

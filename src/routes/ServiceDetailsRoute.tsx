@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { useParams } from 'react-router';
-import { ServiceId } from 'types/ServiceId';
-import { ServiceDetailsPage } from 'pages/ServiceDetails/ServiceDetailsPage';
+import { ServiceId } from '../types/ServiceId';
+import { ServiceDetailsPage } from '../pages/ServiceDetails/ServiceDetailsPage';
 
 /**
  * ServiceDetails wrapper to add routing parameters to ServiceDetailsPage

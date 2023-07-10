@@ -2,7 +2,7 @@ import * as React from 'react';
 import { FormGroup, Switch, TextInput } from '@patternfly/react-core';
 import { Abort } from '../../../types/IstioObjects';
 import { HTTP_ABORT_TOOLTIP, wizardTooltip } from '../WizardHelp';
-import { isValid } from 'utils/Common';
+import { isValid } from '../../../utils/Common';
 
 type Props = {
   aborted: boolean;

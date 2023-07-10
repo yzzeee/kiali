@@ -2,12 +2,12 @@ import * as React from 'react';
 import { Grid, GridItem } from '@patternfly/react-core';
 import { ChartThemeColor, ChartThemeVariant, getTheme } from '@patternfly/react-charts';
 
-import { AllPromLabelsValues } from 'types/Metrics';
-import { ChartModel, DashboardModel } from 'types/Dashboards';
-import { getDataSupplier } from 'utils/VictoryChartsUtils';
-import { Overlay } from 'types/Overlay';
+import { AllPromLabelsValues } from '../../types/Metrics';
+import { ChartModel, DashboardModel } from '../../types/Dashboards';
+import { getDataSupplier } from '../../utils/VictoryChartsUtils';
+import { Overlay } from '../../types/Overlay';
 import { KChart } from './KChart';
-import { LineInfo, RawOrBucket } from 'types/VictoryChartInfo';
+import { LineInfo, RawOrBucket } from '../../types/VictoryChartInfo';
 import { BrushHandlers } from './Container';
 import { isArray } from 'lodash';
 

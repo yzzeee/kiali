@@ -19,8 +19,8 @@ import NodeImageKey from '../../../assets/img/node-background-key.png';
 import { CyNode, decoratedEdgeData, decoratedNodeData } from '../CytoscapeGraphUtils';
 import _ from 'lodash';
 import * as Cy from 'cytoscape';
-import { PFBadges } from 'components/Pf/PfBadges';
-import { config } from 'config/Config';
+import { PFBadges } from '../../../components/Pf/PfBadges';
+import { config } from '../../../config/Config';
 import { kialiBadge, PFBadgeType } from '../../Pf/PfBadges';
 
 export const HighlightClass = 'mousehighlight';

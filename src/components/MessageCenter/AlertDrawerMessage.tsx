@@ -3,10 +3,10 @@ import { connect } from 'react-redux';
 import { ExpandableSection, Card, CardBody } from '@patternfly/react-core';
 import { MessageType, NotificationMessage } from '../../types/MessageCenter';
 import moment from 'moment';
-import { MessageCenterActions } from 'actions/MessageCenterActions';
-import { KialiDispatch } from 'types/Redux';
+import { MessageCenterActions } from '../../actions/MessageCenterActions';
+import { KialiDispatch } from '../../types/Redux';
 import { style } from 'typestyle';
-import { KialiIcon } from 'config/KialiIcon';
+import { KialiIcon } from '../../config/KialiIcon';
 
 const getIcon = (type: MessageType) => {
   switch (type) {

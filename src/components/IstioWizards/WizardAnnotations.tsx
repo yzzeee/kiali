@@ -12,7 +12,7 @@ import {
   TitleSizes
 } from '@patternfly/react-core';
 import { TableComposable, Tbody, Th, Thead, Tr } from '@patternfly/react-table';
-import { KialiIcon } from 'config/KialiIcon';
+import { KialiIcon } from '../../config/KialiIcon';
 
 interface Props {
   annotations: { [key: string]: string };

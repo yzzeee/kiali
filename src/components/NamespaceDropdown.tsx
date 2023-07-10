@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
-import { KialiDispatch } from 'types/Redux';
+import { KialiDispatch } from '../types/Redux';
 import _ from 'lodash';
 import { style } from 'typestyle';
 import {
@@ -23,7 +23,7 @@ import {
   BoundingClientAwareComponent,
   PropertyType
 } from './BoundingClientAwareComponent/BoundingClientAwareComponent';
-import { KialiIcon } from 'config/KialiIcon';
+import { KialiIcon } from '../config/KialiIcon';
 import { TourStop } from './Tour/TourStop';
 import { GraphTourStops } from '../pages/Graph/GraphHelpTour';
 

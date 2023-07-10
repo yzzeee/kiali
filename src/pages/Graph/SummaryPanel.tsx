@@ -5,18 +5,18 @@ import { SummaryPanelPropType, BoxByType, SummaryData } from '../../types/Graph'
 import { SummaryPanelEdge } from './SummaryPanelEdge';
 import { SummaryPanelGraph } from './SummaryPanelGraph';
 import { SummaryPanelAppBox } from './SummaryPanelAppBox';
-import { KialiIcon } from 'config/KialiIcon';
+import { KialiIcon } from '../../config/KialiIcon';
 import { SummaryPanelNode } from './SummaryPanelNode';
-import { JaegerState } from 'reducers/JaegerState';
+import { JaegerState } from '../../reducers/JaegerState';
 import { SummaryPanelTraceDetails } from './SummaryPanelTraceDetails';
-import { KialiAppState } from 'store/Store';
+import { KialiAppState } from '../../store/Store';
 import { SummaryPanelClusterBox } from './SummaryPanelClusterBox';
 import { SummaryPanelNamespaceBox } from './SummaryPanelNamespaceBox';
-import { CyNode } from 'components/CytoscapeGraph/CytoscapeGraphUtils';
-import { GraphTourStops } from 'pages/Graph/GraphHelpTour';
-import { TourStop } from 'components/Tour/TourStop';
+import { CyNode } from '../../components/CytoscapeGraph/CytoscapeGraphUtils';
+import { GraphTourStops } from '../../pages/Graph/GraphHelpTour';
+import { TourStop } from '../../components/Tour/TourStop';
 import { summaryPanelWidth } from './SummaryPanelCommon';
-import { WizardAction, WizardMode } from 'components/IstioWizards/WizardActions';
+import { WizardAction, WizardMode } from '../../components/IstioWizards/WizardActions';
 import { ServiceDetailsInfo } from '../../types/ServiceInfo';
 import { PeerAuthentication } from '../../types/IstioObjects';
 

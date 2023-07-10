@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { useParams } from 'react-router';
-import { IstioConfigId } from 'types/IstioConfigDetails';
-import { IstioConfigDetailsPage } from 'pages/IstioConfigDetails/IstioConfigDetailsPage';
+import { IstioConfigId } from '../types/IstioConfigDetails';
+import { IstioConfigDetailsPage } from '../pages/IstioConfigDetails/IstioConfigDetailsPage';
 
 /**
  * IstioConfigDetails wrapper to add routing parameters to IstioConfigDetailsPage

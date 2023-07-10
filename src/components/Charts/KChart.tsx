@@ -10,9 +10,9 @@ import {
 import { ChartArea, ChartBar, ChartScatter, ChartLine } from '@patternfly/react-charts';
 import { CubesIcon, ErrorCircleOIcon } from '@patternfly/react-icons';
 
-import { ChartModel } from 'types/Dashboards';
-import { VCLines, RawOrBucket, RichDataPoint, LineInfo } from 'types/VictoryChartInfo';
-import { Overlay } from 'types/Overlay';
+import { ChartModel } from '../../types/Dashboards';
+import { VCLines, RawOrBucket, RichDataPoint, LineInfo } from '../../types/VictoryChartInfo';
+import { Overlay } from '../../types/Overlay';
 import { ChartWithLegend, LEGEND_HEIGHT, MIN_HEIGHT, MIN_HEIGHT_YAXIS } from './ChartWithLegend';
 import { BrushHandlers } from './Container';
 import { defaultIconStyle, KialiIcon } from '../../config/KialiIcon';

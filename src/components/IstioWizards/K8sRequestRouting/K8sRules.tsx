@@ -10,7 +10,7 @@ import {
   TitleSizes,
   TooltipPosition
 } from '@patternfly/react-core';
-import { PFBadge, PFBadges } from 'components/Pf/PfBadges';
+import { PFBadge, PFBadges } from '../../../components/Pf/PfBadges';
 import { ROUTE_RULES_TOOLTIP, wizardTooltip } from '../WizardHelp';
 import { K8sRouteBackendRef } from '../K8sTrafficShifting';
 

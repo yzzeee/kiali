@@ -12,15 +12,15 @@ import {
 } from '../../types/Graph';
 import { RenderComponentScroll } from '../Nav/Page';
 import { MetricsObjectTypes } from '../../types/Metrics';
-import { GraphDataSource } from 'services/GraphDataSource';
-import { DurationInSeconds, TimeInMilliseconds } from 'types/Common';
+import { GraphDataSource } from '../../services/GraphDataSource';
+import { DurationInSeconds, TimeInMilliseconds } from '../../types/Common';
 import * as FilterHelper from '../FilterList/FilterHelper';
 import * as TrafficListFilters from './FiltersAndSorts';
 import { KialiAppState } from '../../store/Store';
 import { connect } from 'react-redux';
 import { durationSelector } from '../../store/Selectors';
 import { HealthAnnotationType } from '../../types/HealthAnnotation';
-import { TrafficListComponent } from 'components/TrafficList/TrafficListComponent';
+import { TrafficListComponent } from '../../components/TrafficList/TrafficListComponent';
 import { KioskElement } from '../Kiosk/KioskElement';
 import { TimeDurationModal } from '../Time/TimeDurationModal';
 import { TimeDurationIndicator } from '../Time/TimeDurationIndicator';

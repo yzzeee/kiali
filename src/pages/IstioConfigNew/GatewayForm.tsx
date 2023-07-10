@@ -3,7 +3,7 @@ import * as React from 'react';
 import { FormGroup, Switch, TextInputBase as TextInput } from '@patternfly/react-core';
 import { ServerList } from './GatewayForm/ServerList';
 import { MAX_PORT, Server, ServerForm, ServerTLSSettings, MIN_PORT } from '../../types/IstioObjects';
-import { isValid } from 'utils/Common';
+import { isValid } from '../../utils/Common';
 import { areValidHosts } from './GatewayForm/ServerBuilder';
 
 export const GATEWAY = 'Gateway';

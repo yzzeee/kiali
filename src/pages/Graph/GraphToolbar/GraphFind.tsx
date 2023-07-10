@@ -10,17 +10,17 @@ import { CyNode, CyEdge } from '../../../components/CytoscapeGraph/CytoscapeGrap
 import * as CytoscapeGraphUtils from '../../../components/CytoscapeGraph/CytoscapeGraphUtils';
 import { EdgeLabelMode, NodeType, Layout, EdgeMode } from '../../../types/Graph';
 import * as AlertUtils from '../../../utils/AlertUtils';
-import { KialiIcon, defaultIconStyle } from 'config/KialiIcon';
+import { KialiIcon, defaultIconStyle } from '../../../config/KialiIcon';
 import { style } from 'typestyle';
-import { TourStop } from 'components/Tour/TourStop';
-import { GraphTourStops } from 'pages/Graph/GraphHelpTour';
-import { TimeInMilliseconds } from 'types/Common';
-import { KialiDispatch } from 'types/Redux';
-import { AutoComplete } from 'utils/AutoComplete';
-import { DEGRADED, FAILURE, HEALTHY } from 'types/Health';
+import { TourStop } from '../../../components/Tour/TourStop';
+import { GraphTourStops } from '../../../pages/Graph/GraphHelpTour';
+import { TimeInMilliseconds } from '../../../types/Common';
+import { KialiDispatch } from '../../../types/Redux';
+import { AutoComplete } from '../../../utils/AutoComplete';
+import { DEGRADED, FAILURE, HEALTHY } from '../../../types/Health';
 import { GraphFindOptions } from './GraphFindOptions';
 import { history, HistoryManager, URLParam } from '../../../app/History';
-import { isValid } from 'utils/Common';
+import { isValid } from '../../../utils/Common';
 
 type ReduxProps = {
   compressOnHide: boolean;

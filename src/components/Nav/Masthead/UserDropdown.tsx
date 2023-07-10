@@ -8,7 +8,7 @@ import { KialiAppState, LoginSession } from '../../../store/Store';
 import { authenticationConfig } from '../../../config/AuthenticationConfig';
 import { AuthStrategy } from '../../../types/Auth';
 import moment from 'moment';
-import { KialiDispatch } from 'types/Redux';
+import { KialiDispatch } from '../../../types/Redux';
 import { LoginThunkActions } from '../../../actions/LoginThunkActions';
 import { connect } from 'react-redux';
 import * as API from '../../../services/Api';

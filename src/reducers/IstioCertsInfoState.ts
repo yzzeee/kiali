@@ -1,7 +1,7 @@
 import { KialiAppAction } from '../actions/KialiAppAction';
 import { getType } from 'typesafe-actions';
-import { CertsInfo } from 'types/CertsInfo';
-import { IstioCertsInfoActions } from 'actions/IstioCertsInfoActions';
+import { CertsInfo } from '../types/CertsInfo';
+import { IstioCertsInfoActions } from '../actions/IstioCertsInfoActions';
 
 export const INITIAL_ISTIO_CERTS_INFO_STATE: CertsInfo[] = [];
 

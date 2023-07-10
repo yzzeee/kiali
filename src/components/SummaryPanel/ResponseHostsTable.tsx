@@ -3,7 +3,7 @@ import _ from 'lodash';
 import { style } from 'typestyle';
 import { Responses } from '../../types/Graph';
 import { Tooltip } from '@patternfly/react-core';
-import { summaryTitle } from 'pages/Graph/SummaryPanelCommon';
+import { summaryTitle } from '../../pages/Graph/SummaryPanelCommon';
 
 type ResponseHostsTableProps = {
   responses: Responses;

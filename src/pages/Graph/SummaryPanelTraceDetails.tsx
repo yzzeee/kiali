@@ -12,22 +12,22 @@ import {
 } from '@patternfly/react-icons';
 
 import { URLParam } from '../../app/History';
-import { JaegerTrace, RichSpanData, EnvoySpanInfo, OpenTracingHTTPInfo, OpenTracingTCPInfo } from 'types/JaegerInfo';
-import { KialiAppState } from 'store/Store';
-import { JaegerThunkActions } from 'actions/JaegerThunkActions';
-import { GraphActions } from 'actions/GraphActions';
-import { PFColors } from 'components/Pf/PfColors';
-import { findChildren, findParent, formatDuration } from 'utils/tracing/TracingHelper';
-import { CytoscapeGraphSelectorBuilder } from 'components/CytoscapeGraph/CytoscapeGraphSelector';
-import { decoratedNodeData } from 'components/CytoscapeGraph/CytoscapeGraphUtils';
-import { FocusAnimation } from 'components/CytoscapeGraph/FocusAnimation';
-import { FormattedTraceInfo, shortIDStyle } from 'components/JaegerIntegration/JaegerResults/FormattedTraceInfo';
-import { SimplerSelect } from 'components/SimplerSelect';
+import { JaegerTrace, RichSpanData, EnvoySpanInfo, OpenTracingHTTPInfo, OpenTracingTCPInfo } from '../../types/JaegerInfo';
+import { KialiAppState } from '../../store/Store';
+import { JaegerThunkActions } from '../../actions/JaegerThunkActions';
+import { GraphActions } from '../../actions/GraphActions';
+import { PFColors } from '../../components/Pf/PfColors';
+import { findChildren, findParent, formatDuration } from '../../utils/tracing/TracingHelper';
+import { CytoscapeGraphSelectorBuilder } from '../../components/CytoscapeGraph/CytoscapeGraphSelector';
+import { decoratedNodeData } from '../../components/CytoscapeGraph/CytoscapeGraphUtils';
+import { FocusAnimation } from '../../components/CytoscapeGraph/FocusAnimation';
+import { FormattedTraceInfo, shortIDStyle } from '../../components/JaegerIntegration/JaegerResults/FormattedTraceInfo';
+import { SimplerSelect } from '../../components/SimplerSelect';
 import { summaryFont, summaryTitle } from './SummaryPanelCommon';
-import { NodeParamsType, GraphType } from 'types/Graph';
-import { KialiDispatch } from 'types/Redux';
+import { NodeParamsType, GraphType } from '../../types/Graph';
+import { KialiDispatch } from '../../types/Redux';
 import { bindActionCreators } from 'redux';
-import { responseFlags } from 'utils/ResponseFlags';
+import { responseFlags } from '../../utils/ResponseFlags';
 import { isParentKiosk, kioskContextMenuAction } from '../../components/Kiosk/KioskActions';
 
 type ReduxProps = {

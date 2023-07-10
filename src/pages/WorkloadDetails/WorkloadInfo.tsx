@@ -10,7 +10,7 @@ import { Grid, GridItem, Stack, StackItem } from '@patternfly/react-core';
 import { activeTab } from '../../components/Tab/Tabs';
 import { RenderComponentScroll } from '../../components/Nav/Page';
 import { GraphDataSource } from '../../services/GraphDataSource';
-import { DurationInSeconds } from 'types/Common';
+import { DurationInSeconds } from '../../types/Common';
 import { isIstioNamespace, serverConfig } from '../../config/ServerConfig';
 import { IstioConfigList, toIstioItems } from '../../types/IstioConfigList';
 import { KialiAppState } from '../../store/Store';

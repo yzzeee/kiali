@@ -19,7 +19,7 @@ import {
   PeerAuthentication,
   Sidecar,
   VirtualService
-} from 'types/IstioObjects';
+} from '../../types/IstioObjects';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import { style } from 'typestyle';
 import { KialiIcon, defaultIconStyle } from '../../config/KialiIcon';

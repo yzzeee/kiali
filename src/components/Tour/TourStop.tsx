@@ -2,13 +2,13 @@ import * as React from 'react';
 import { Button, ButtonVariant, Popover, PopoverPosition } from '@patternfly/react-core';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import { KialiDispatch } from 'types/Redux';
-import { KialiAppState } from 'store/Store';
+import { KialiDispatch } from '../../types/Redux';
+import { KialiAppState } from '../../store/Store';
 import ReactResizeDetector from 'react-resize-detector';
-import { KialiIcon } from 'config/KialiIcon';
-import { TourActions } from 'actions/TourActions';
+import { KialiIcon } from '../../config/KialiIcon';
+import { TourActions } from '../../actions/TourActions';
 import { style } from 'typestyle';
-import { PFColors } from 'components/Pf/PfColors';
+import { PFColors } from '../../components/Pf/PfColors';
 
 export interface TourStopInfo {
   description?: string; // displayed as the tour stop body

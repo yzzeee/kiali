@@ -14,17 +14,17 @@ import {
 } from '@patternfly/react-core';
 import { CloseIcon, InfoIcon } from '@patternfly/react-icons';
 import { connect } from 'react-redux';
-import { KialiDispatch } from 'types/Redux';
-import { KialiAppState } from 'store/Store';
+import { KialiDispatch } from '../../types/Redux';
+import { KialiAppState } from '../../store/Store';
 import { style } from 'typestyle';
 import { NotificationMessage, NotificationGroup } from '../../types/MessageCenter';
-import { MessageCenterActions } from 'actions/MessageCenterActions';
+import { MessageCenterActions } from '../../actions/MessageCenterActions';
 import { AlertDrawerGroup } from './AlertDrawerGroup';
 import {
   BoundingClientAwareComponent,
   PropertyType
-} from 'components/BoundingClientAwareComponent/BoundingClientAwareComponent';
-import { KialiIcon } from 'config/KialiIcon';
+} from '../../components/BoundingClientAwareComponent/BoundingClientAwareComponent';
+import { KialiIcon } from '../../config/KialiIcon';
 
 type ReduxProps = {
   expandedGroupId: string | undefined;

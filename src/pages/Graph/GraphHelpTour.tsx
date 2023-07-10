@@ -1,5 +1,5 @@
 import { PopoverPosition } from '@patternfly/react-core';
-import { TourStopInfo, TourInfo } from 'components/Tour/TourStop';
+import { TourStopInfo, TourInfo } from '../../components/Tour/TourStop';
 import { GraphShortcuts } from './GraphToolbar/GraphShortcuts';
 
 export const GraphTourStops: { [name: string]: TourStopInfo } = {

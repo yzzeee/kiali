@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { AuthorizationPolicy, Sidecar } from 'types/IstioObjects';
+import { AuthorizationPolicy, Sidecar } from '../../types/IstioObjects';
 import { AceValidations, jsYaml } from '../../types/AceValidations';
 import AceEditor from 'react-ace';
 import { aceOptions } from '../../types/IstioConfigDetails';

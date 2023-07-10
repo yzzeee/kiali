@@ -29,13 +29,13 @@ import { IstioMetricsMap, Datapoint, Labels } from '../../types/Metrics';
 import { IstioMetricsOptions } from '../../types/MetricsOptions';
 import { CancelablePromise, makeCancelablePromise } from '../../utils/CancelablePromises';
 import { CyNode } from '../../components/CytoscapeGraph/CytoscapeGraphUtils';
-import { KialiIcon } from 'config/KialiIcon';
-import { SimpleTabs } from 'components/Tab/SimpleTabs';
-import { ValidationStatus } from 'types/IstioObjects';
+import { KialiIcon } from '../../config/KialiIcon';
+import { SimpleTabs } from '../../components/Tab/SimpleTabs';
+import { ValidationStatus } from '../../types/IstioObjects';
 import { PFColors } from '../../components/Pf/PfColors';
-import { ValidationSummary } from 'components/Validations/ValidationSummary';
+import { ValidationSummary } from '../../components/Validations/ValidationSummary';
 import { ValidationSummaryLink } from '../../components/Link/ValidationSummaryLink';
-import { PFBadge, PFBadges } from 'components/Pf/PfBadges';
+import { PFBadge, PFBadges } from '../../components/Pf/PfBadges';
 
 type SummaryPanelNamespaceBoxMetricsState = {
   grpcRequestIn: Datapoint[];

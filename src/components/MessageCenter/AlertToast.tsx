@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Alert, AlertProps, AlertActionCloseButton } from '@patternfly/react-core';
-import { NotificationMessage } from 'types/MessageCenter';
+import { NotificationMessage } from '../../types/MessageCenter';
 
 const DEFAULT_TTLMS = 8000; // PF recommended default
 

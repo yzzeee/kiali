@@ -14,20 +14,20 @@ import { DurationInSeconds, TimeInMilliseconds } from '../../types/Common';
 import { KialiAppState } from '../../store/Store';
 import { durationSelector } from '../../store/Selectors';
 import { ParameterizedTabs, activeTab } from '../../components/Tab/Tabs';
-import { TracesComponent } from 'components/JaegerIntegration/TracesComponent';
-import { JaegerInfo } from 'types/JaegerInfo';
-import { TrafficDetails } from 'components/TrafficList/TrafficDetails';
+import { TracesComponent } from '../../components/JaegerIntegration/TracesComponent';
+import { JaegerInfo } from '../../types/JaegerInfo';
+import { TrafficDetails } from '../../components/TrafficList/TrafficDetails';
 import { WorkloadWizardDropdown } from '../../components/IstioWizards/WorkloadWizardDropdown';
 import { TimeControl } from '../../components/Time/TimeControl';
-import { EnvoyDetails } from 'components/Envoy/EnvoyDetails';
+import { EnvoyDetails } from '../../components/Envoy/EnvoyDetails';
 import { StatusState } from '../../types/StatusState';
-import { WorkloadHealth } from 'types/Health';
+import { WorkloadHealth } from '../../types/Health';
 import { RenderHeader } from '../../components/Nav/Page/RenderHeader';
 import { ErrorSection } from '../../components/ErrorSection/ErrorSection';
 import { ErrorMsg } from '../../types/ErrorMsg';
 import { connectRefresh } from '../../components/Refresh/connectRefresh';
 import { isWaypoint } from '../../helpers/LabelFilterHelper';
-import { history } from 'app/History';
+import { history } from '../../app/History';
 
 type WorkloadDetailsState = {
   workload?: Workload;

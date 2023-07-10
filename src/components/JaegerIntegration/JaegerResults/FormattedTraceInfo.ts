@@ -1,8 +1,8 @@
 import { JaegerTrace } from '../../../types/JaegerInfo';
 import moment from 'moment';
 import { style } from 'typestyle';
-import { PFColors } from 'components/Pf/PfColors';
-import { formatDuration, formatRelativeDate, isErrorTag } from 'utils/tracing/TracingHelper';
+import { PFColors } from '../../../components/Pf/PfColors';
+import { formatDuration, formatRelativeDate, isErrorTag } from '../../../utils/tracing/TracingHelper';
 
 export const shortIDStyle = style({
   color: PFColors.Black600,

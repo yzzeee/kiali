@@ -1,5 +1,5 @@
-import { TimeRange } from 'types/Common';
-import { HistoryManager, URLParam } from 'app/History';
+import { TimeRange } from '../../types/Common';
+import { HistoryManager, URLParam } from '../../app/History';
 
 export const retrieveTimeRange = (): TimeRange => {
   const urlBounds = HistoryManager.getTimeBounds();

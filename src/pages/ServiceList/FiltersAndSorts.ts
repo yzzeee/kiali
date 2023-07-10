@@ -16,7 +16,7 @@ import { filterByLabel } from '../../helpers/LabelFilterHelper';
 import { calculateErrorRate } from '../../types/ErrorRate';
 import { istioTypeFilter } from '../IstioConfigList/FiltersAndSorts';
 import { compareObjectReferences } from '../AppList/FiltersAndSorts';
-import { serverConfig } from 'config';
+import { serverConfig } from '../../config';
 
 export const sortFields: SortField<ServiceListItem>[] = [
   {

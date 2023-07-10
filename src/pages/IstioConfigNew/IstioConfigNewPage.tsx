@@ -67,8 +67,8 @@ import {
   SERVICE_ENTRY,
   ServiceEntryState
 } from './ServiceEntryForm';
-import { ConfigPreviewItem, IstioConfigPreview } from 'components/IstioConfigPreview/IstioConfigPreview';
-import { isValid } from 'utils/Common';
+import { ConfigPreviewItem, IstioConfigPreview } from '../../components/IstioConfigPreview/IstioConfigPreview';
+import { isValid } from '../../utils/Common';
 
 type Props = {
   objectType: string;

@@ -1,7 +1,7 @@
 import { Dropdown, DropdownToggle, DropdownItem } from '@patternfly/react-core';
 import * as React from 'react';
-import { KialiIcon } from 'config/KialiIcon';
-import { serverConfig } from 'config';
+import { KialiIcon } from '../../../config/KialiIcon';
+import { serverConfig } from '../../../config';
 import { style } from 'typestyle';
 
 type FindKind = 'find' | 'hide';

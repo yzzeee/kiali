@@ -1,6 +1,6 @@
 import { createBrowserHistory, createMemoryHistory, createHashHistory } from 'history';
 import { toValidDuration } from '../config/ServerConfig';
-import { BoundsInMilliseconds } from 'types/Common';
+import { BoundsInMilliseconds } from '../types/Common';
 
 const createHistory = (baseName: string) => {
   return process.env.TEST_RUNNER

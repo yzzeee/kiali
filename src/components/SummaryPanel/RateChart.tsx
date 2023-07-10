@@ -3,8 +3,8 @@ import { Chart, ChartBar, ChartStack, ChartAxis, ChartTooltip, ChartLegend } fro
 
 import { PFColors } from '../../components/Pf/PfColors';
 import { SUMMARY_PANEL_CHART_WIDTH } from '../../types/Graph';
-import { RichDataPoint, VCLines } from 'types/VictoryChartInfo';
-import { addLegendEvent, VCEvent } from 'utils/VictoryEvents';
+import { RichDataPoint, VCLines } from '../../types/VictoryChartInfo';
+import { addLegendEvent, VCEvent } from '../../utils/VictoryEvents';
 
 export const legendHeight = 25;
 export const legendTopMargin = 20;

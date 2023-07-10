@@ -28,14 +28,14 @@ import { Namespace, namespacesFromString, namespacesToString } from '../../../ty
 import { KialiDispatch } from '../../../types/Redux';
 import { NamespaceActions } from '../../../actions/NamespaceAction';
 import { GraphActions } from '../../../actions/GraphActions';
-import { GraphTourStops } from 'pages/Graph/GraphHelpTour';
-import { TourStop } from 'components/Tour/TourStop';
-import { KialiIcon, defaultIconStyle } from 'config/KialiIcon';
-import { Replay } from 'components/Time/Replay';
-import { UserSettingsActions } from 'actions/UserSettingsActions';
+import { GraphTourStops } from '../../../pages/Graph/GraphHelpTour';
+import { TourStop } from '../../../components/Tour/TourStop';
+import { KialiIcon, defaultIconStyle } from '../../../config/KialiIcon';
+import { Replay } from '../../../components/Time/Replay';
+import { UserSettingsActions } from '../../../actions/UserSettingsActions';
 import { GraphSecondaryMasthead } from './GraphSecondaryMasthead';
-import { CyNode } from 'components/CytoscapeGraph/CytoscapeGraphUtils';
-import { INITIAL_USER_SETTINGS_STATE } from 'reducers/UserSettingsState';
+import { CyNode } from '../../../components/CytoscapeGraph/CytoscapeGraphUtils';
+import { INITIAL_USER_SETTINGS_STATE } from '../../../reducers/UserSettingsState';
 import { GraphReset } from './GraphReset';
 
 type ReduxProps = {

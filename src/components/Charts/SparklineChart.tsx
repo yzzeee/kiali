@@ -11,9 +11,9 @@ import {
   ChartThreshold
 } from '@patternfly/react-charts';
 
-import { VCLines, VCDataPoint, RichDataPoint } from 'types/VictoryChartInfo';
+import { VCLines, VCDataPoint, RichDataPoint } from '../../types/VictoryChartInfo';
 import { CustomTooltip } from './CustomTooltip';
-import { VCEvent, addLegendEvent } from 'utils/VictoryEvents';
+import { VCEvent, addLegendEvent } from '../../utils/VictoryEvents';
 
 type Props = ChartProps & {
   labelName: string;

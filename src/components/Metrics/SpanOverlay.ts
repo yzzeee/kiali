@@ -1,12 +1,12 @@
-import { PFColors } from 'components/Pf/PfColors';
-import * as API from 'services/Api';
-import { TimeRange, durationToBounds, guardTimeRange } from 'types/Common';
-import * as AlertUtils from 'utils/AlertUtils';
-import { Span, TracingQuery } from 'types/Tracing';
-import { MetricsObjectTypes } from 'types/Metrics';
-import { LineInfo } from 'types/VictoryChartInfo';
-import { Overlay, OverlayInfo } from 'types/Overlay';
-import { toOverlay } from 'utils/VictoryChartsUtils';
+import { PFColors } from '../../components/Pf/PfColors';
+import * as API from '../../services/Api';
+import { TimeRange, durationToBounds, guardTimeRange } from '../../types/Common';
+import * as AlertUtils from '../../utils/AlertUtils';
+import { Span, TracingQuery } from '../../types/Tracing';
+import { MetricsObjectTypes } from '../../types/Metrics';
+import { LineInfo } from '../../types/VictoryChartInfo';
+import { Overlay, OverlayInfo } from '../../types/Overlay';
+import { toOverlay } from '../../utils/VictoryChartsUtils';
 import { defaultMetricsDuration } from './Helper';
 
 export type JaegerLineInfo = LineInfo & { traceId?: string; spanId?: string };

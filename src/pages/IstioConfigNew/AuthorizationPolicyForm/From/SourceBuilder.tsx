@@ -12,7 +12,7 @@ import { PlusCircleIcon } from '@patternfly/react-icons';
 import { isValidIp } from '../../../../utils/IstioConfigUtils';
 import { style } from 'typestyle';
 import { PFColors } from '../../../../components/Pf/PfColors';
-import { isValid } from 'utils/Common';
+import { isValid } from '../../../../utils/Common';
 
 type Props = {
   onAddFrom: (source: { [key: string]: string[] }) => void;

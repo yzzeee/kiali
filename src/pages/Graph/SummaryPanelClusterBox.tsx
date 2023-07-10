@@ -2,19 +2,19 @@ import * as React from 'react';
 import { Tab, Tooltip } from '@patternfly/react-core';
 import { style } from 'typestyle';
 import { summaryFont, summaryHeader, summaryBodyTabs, summaryPanelWidth, getTitle } from './SummaryPanelCommon';
-import { CyNode } from 'components/CytoscapeGraph/CytoscapeGraphUtils';
-import { RateTableGrpc, RateTableHttp, RateTableTcp } from 'components/SummaryPanel/RateTable';
-import { SimpleTabs } from 'components/Tab/SimpleTabs';
-import { PFColors } from 'components/Pf/PfColors';
-import { KialiIcon } from 'config/KialiIcon';
-import { SummaryPanelPropType, NodeType, TrafficRate } from 'types/Graph';
+import { CyNode } from '../../components/CytoscapeGraph/CytoscapeGraphUtils';
+import { RateTableGrpc, RateTableHttp, RateTableTcp } from '../../components/SummaryPanel/RateTable';
+import { SimpleTabs } from '../../components/Tab/SimpleTabs';
+import { PFColors } from '../../components/Pf/PfColors';
+import { KialiIcon } from '../../config/KialiIcon';
+import { SummaryPanelPropType, NodeType, TrafficRate } from '../../types/Graph';
 import {
   getAccumulatedTrafficRateGrpc,
   getAccumulatedTrafficRateHttp,
   getAccumulatedTrafficRateTcp
-} from 'utils/TrafficRate';
-import { PFBadge, PFBadges } from 'components/Pf/PfBadges';
-import { KialiPageLink } from 'components/Link/KialiPageLink';
+} from '../../utils/TrafficRate';
+import { PFBadge, PFBadges } from '../../components/Pf/PfBadges';
+import { KialiPageLink } from '../../components/Link/KialiPageLink';
 
 type SummaryPanelClusterBoxState = {
   clusterBox: any;

@@ -16,9 +16,9 @@ import {
   Validations
 } from '../../types/IstioObjects';
 import { RenderComponentScroll } from '../../components/Nav/Page';
-import { PromisesRegistry } from 'utils/CancelablePromises';
-import { DurationInSeconds } from 'types/Common';
-import { GraphDataSource } from 'services/GraphDataSource';
+import { PromisesRegistry } from '../../utils/CancelablePromises';
+import { DurationInSeconds } from '../../types/Common';
+import { GraphDataSource } from '../../services/GraphDataSource';
 import {
   drToIstioItems,
   vsToIstioItems,

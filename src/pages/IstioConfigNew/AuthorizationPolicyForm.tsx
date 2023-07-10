@@ -2,7 +2,7 @@ import * as React from 'react';
 import { FormGroup, FormSelect, FormSelectOption, Switch, TextInputBase as TextInput } from '@patternfly/react-core';
 import { RuleBuilder, Rule } from './AuthorizationPolicyForm/RuleBuilder';
 import { RuleList } from './AuthorizationPolicyForm/RuleList';
-import { isValid } from 'utils/Common';
+import { isValid } from '../../utils/Common';
 
 type Props = {
   authorizationPolicy: AuthorizationPolicyState;

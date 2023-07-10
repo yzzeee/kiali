@@ -1,7 +1,7 @@
 import { Stack, StackItem, Title, TitleSizes } from '@patternfly/react-core';
-import { ReferenceIstioObjectLink } from 'components/Link/IstioObjectLink';
+import { ReferenceIstioObjectLink } from '../../../components/Link/IstioObjectLink';
 import * as React from 'react';
-import { ObjectReference } from 'types/IstioObjects';
+import { ObjectReference } from '../../../types/IstioObjects';
 
 interface IstioConfigReferencesProps {
   objectReferences: ObjectReference[];

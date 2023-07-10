@@ -1,6 +1,6 @@
 import { Stack, StackItem, Title, TitleSizes } from '@patternfly/react-core';
 import * as React from 'react';
-import { HelpMessage } from 'types/IstioObjects';
+import { HelpMessage } from '../../../types/IstioObjects';
 
 interface IstioConfigHelpProps {
   helpMessages?: HelpMessage[];

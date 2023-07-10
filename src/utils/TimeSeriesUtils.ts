@@ -1,4 +1,4 @@
-import { AllPromLabelsValues, Labels, Metric } from 'types/Metrics';
+import { AllPromLabelsValues, Labels, Metric } from '../types/Metrics';
 
 type KVMapper = (key: string, value: string) => string;
 export type LabelsInfo = {

@@ -6,7 +6,7 @@ import { Path } from '../../types/Routes';
 import { style } from 'typestyle';
 import { PFColors } from '../Pf/PfColors';
 import { Button, ButtonVariant, EmptyState, EmptyStateBody, EmptyStateIcon, Title } from '@patternfly/react-core';
-import { KialiIcon } from 'config/KialiIcon';
+import { KialiIcon } from '../../config/KialiIcon';
 
 const containerStyle = style({ marginLeft: 0, marginRight: 0 });
 const containerPadding = style({ padding: '0 20px 0 20px' });

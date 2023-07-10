@@ -22,11 +22,11 @@ import {
 } from '../types/Graph';
 import { TLSStatus } from '../types/TLSStatus';
 import { StatusState } from '../types/StatusState';
-import { TourInfo } from 'components/Tour/TourStop';
+import { TourInfo } from '../components/Tour/TourStop';
 import { ComponentStatus } from '../types/IstioStatus';
-import { JaegerState } from 'reducers/JaegerState';
-import { MetricsStatsState } from 'reducers/MetricsStatsState';
-import { CertsInfo } from 'types/CertsInfo';
+import { JaegerState } from '../reducers/JaegerState';
+import { MetricsStatsState } from '../reducers/MetricsStatsState';
+import { CertsInfo } from '../types/CertsInfo';
 
 // Store is the Redux Data store
 

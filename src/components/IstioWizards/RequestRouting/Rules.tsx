@@ -12,7 +12,7 @@ import {
 } from '@patternfly/react-core';
 import { WorkloadWeight } from '../TrafficShifting';
 import { Abort, Delay, HTTPRetry } from '../../../types/IstioObjects';
-import { PFBadge, PFBadges } from 'components/Pf/PfBadges';
+import { PFBadge, PFBadges } from '../../../components/Pf/PfBadges';
 import { ROUTE_RULES_TOOLTIP, wizardTooltip } from '../WizardHelp';
 
 export enum MOVE_TYPE {

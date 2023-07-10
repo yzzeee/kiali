@@ -4,9 +4,9 @@ import { NotificationList } from './NotificationList';
 import { style } from 'typestyle';
 import { NotificationMessage, NotificationGroup } from '../../types/MessageCenter';
 import { AlertDrawer } from './AlertDrawer';
-import { KialiAppState } from 'store/Store';
-import { KialiDispatch } from 'types/Redux';
-import { MessageCenterActions } from 'actions/MessageCenterActions';
+import { KialiAppState } from '../../store/Store';
+import { KialiDispatch } from '../../types/Redux';
+import { MessageCenterActions } from '../../actions/MessageCenterActions';
 
 const notificationStyle = style({
   position: 'relative',

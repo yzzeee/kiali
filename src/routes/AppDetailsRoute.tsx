@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { useParams } from 'react-router';
-import { AppId } from 'types/App';
-import { AppDetailsPage } from 'pages/AppDetails/AppDetailsPage';
+import { AppId } from '../types/App';
+import { AppDetailsPage } from '../pages/AppDetails/AppDetailsPage';
 
 /**
  * AppDetails wrapper to add routing parameters to AppDetailsPage

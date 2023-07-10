@@ -1,8 +1,8 @@
 import { ChartDonutUtilization, ChartThemeColor } from '@patternfly/react-charts';
 import { Tooltip, TooltipPosition } from '@patternfly/react-core';
-import { KialiIcon } from 'config/KialiIcon';
+import { KialiIcon } from '../../config/KialiIcon';
 import * as React from 'react';
-import { CanaryUpgradeStatus } from 'types/IstioObjects';
+import { CanaryUpgradeStatus } from '../../types/IstioObjects';
 import { style } from 'typestyle';
 
 type Props = {

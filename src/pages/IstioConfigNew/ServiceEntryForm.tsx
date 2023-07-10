@@ -7,7 +7,7 @@ import { cellWidth, ICell, Table, TableBody, TableHeader } from '@patternfly/rea
 import { PlusCircleIcon, TrashIcon } from '@patternfly/react-icons';
 import { style } from 'typestyle';
 import { PFColors } from '../../components/Pf/PfColors';
-import { isValid } from 'utils/Common';
+import { isValid } from '../../utils/Common';
 import { FormEvent } from 'react';
 
 export const SERVICE_ENTRY = 'ServiceEntry';

@@ -13,7 +13,7 @@ import {
 import { ExternalServiceInfo, Status, StatusKey } from '../../types/StatusState';
 import { config, kialiLogo } from '../../config';
 import { style } from 'typestyle';
-import { KialiIcon } from 'config/KialiIcon';
+import { KialiIcon } from '../../config/KialiIcon';
 
 type AboutUIModalState = {
   showModal: boolean;

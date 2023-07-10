@@ -5,7 +5,7 @@ import { cellWidth, TableComposable, Tbody, Td, Th, Thead, Tr } from '@patternfl
 import { TrashIcon } from '@patternfly/react-icons';
 import { isGatewayHostValid } from '../../../utils/IstioConfigUtils';
 import { ServerForm } from '../../../types/IstioObjects';
-import { isValid } from 'utils/Common';
+import { isValid } from '../../../utils/Common';
 import { isValidPort } from './ListenerBuilder';
 
 type Props = {

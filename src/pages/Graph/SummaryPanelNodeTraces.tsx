@@ -4,19 +4,19 @@ import { SimpleList, SimpleListItem, Button, Checkbox, Divider, ButtonVariant } 
 import { SyncAltIcon } from '@patternfly/react-icons';
 import { style } from 'typestyle';
 
-import { KialiAppState } from 'store/Store';
-import { JaegerThunkActions } from 'actions/JaegerThunkActions';
+import { KialiAppState } from '../../store/Store';
+import { JaegerThunkActions } from '../../actions/JaegerThunkActions';
 import { history } from '../../app/History';
 import * as API from '../../services/Api';
 import * as AlertUtils from '../../utils/AlertUtils';
-import { JaegerTrace } from 'types/JaegerInfo';
-import { PromisesRegistry } from 'utils/CancelablePromises';
-import { TracingQuery } from 'types/Tracing';
-import { TimeInSeconds } from 'types/Common';
-import { TraceListItem } from 'components/JaegerIntegration/TraceListItem';
+import { JaegerTrace } from '../../types/JaegerInfo';
+import { PromisesRegistry } from '../../utils/CancelablePromises';
+import { TracingQuery } from '../../types/Tracing';
+import { TimeInSeconds } from '../../types/Common';
+import { TraceListItem } from '../../components/JaegerIntegration/TraceListItem';
 import { summaryFont } from './SummaryPanelCommon';
-import { DecoratedGraphNodeData } from 'types/Graph';
-import { transformTraceData } from 'utils/tracing/TraceTransform';
+import { DecoratedGraphNodeData } from '../../types/Graph';
+import { transformTraceData } from '../../utils/tracing/TraceTransform';
 import { isParentKiosk, kioskContextMenuAction } from '../../components/Kiosk/KioskActions';
 import { KialiDispatch } from '../../types/Redux';
 

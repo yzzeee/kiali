@@ -31,7 +31,7 @@ import { CancelablePromise, makeCancelablePromise } from '../../utils/Cancelable
 import { Response } from '../../services/Api';
 import { Reporter } from '../../types/MetricsOptions';
 import { CyNode, decoratedNodeData } from '../../components/CytoscapeGraph/CytoscapeGraphUtils';
-import { KialiIcon } from 'config/KialiIcon';
+import { KialiIcon } from '../../config/KialiIcon';
 
 type SummaryPanelNodeMetricsState = {
   grpcRequestCountIn: Datapoint[];

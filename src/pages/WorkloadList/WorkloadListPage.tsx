@@ -19,10 +19,10 @@ import { connect } from 'react-redux';
 import { DefaultSecondaryMasthead } from '../../components/DefaultSecondaryMasthead/DefaultSecondaryMasthead';
 import { TimeDurationComponent } from '../../components/Time/TimeDurationComponent';
 import { sortIstioReferences } from '../AppList/FiltersAndSorts';
-import { hasMissingAuthPolicy } from 'utils/IstioConfigUtils';
+import { hasMissingAuthPolicy } from '../../utils/IstioConfigUtils';
 import { WorkloadHealth } from '../../types/Health';
 import { RefreshNotifier } from '../../components/Refresh/RefreshNotifier';
-import { isMultiCluster } from 'config';
+import { isMultiCluster } from '../../config';
 import { validationKey } from '../../types/IstioConfigList';
 
 type WorkloadListPageState = FilterComponent.State<WorkloadListItem>;

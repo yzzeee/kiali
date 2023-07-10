@@ -3,7 +3,7 @@ import { style } from 'typestyle';
 import { pluralize, Tooltip } from '@patternfly/react-core';
 
 import { JaegerTrace } from '../../types/JaegerInfo';
-import { PFColors } from 'components/Pf/PfColors';
+import { PFColors } from '../../components/Pf/PfColors';
 import { FormattedTraceInfo, shortIDStyle } from './JaegerResults/FormattedTraceInfo';
 
 interface Props {

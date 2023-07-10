@@ -1,10 +1,10 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
-import { KialiAppState } from 'store/Store';
-import { namespaceItemsSelector } from 'store/Selectors';
+import { KialiAppState } from '../../store/Store';
+import { namespaceItemsSelector } from '../../store/Selectors';
 import { ISortBy, SortByDirection } from '@patternfly/react-table';
-import { Workload } from 'types/Workload';
-import { EnvoyProxyDump, Pod } from 'types/IstioObjects';
+import { Workload } from '../../types/Workload';
+import { EnvoyProxyDump, Pod } from '../../types/IstioObjects';
 import * as API from '../../services/Api';
 import * as AlertUtils from '../../utils/AlertUtils';
 import {
@@ -20,20 +20,20 @@ import {
   TooltipPosition
 } from '@patternfly/react-core';
 import { SummaryTableBuilder } from './tables/BaseTable';
-import { Namespace } from 'types/Namespace';
+import { Namespace } from '../../types/Namespace';
 import { style } from 'typestyle';
 import AceEditor from 'react-ace';
-import { PFBadge, PFBadges } from 'components/Pf/PfBadges';
-import { ToolbarDropdown } from 'components/ToolbarDropdown/ToolbarDropdown';
+import { PFBadge, PFBadges } from '../../components/Pf/PfBadges';
+import { ToolbarDropdown } from '../../components/ToolbarDropdown/ToolbarDropdown';
 import { activeTab } from '../../components/Tab/Tabs';
-import { KialiIcon, defaultIconStyle } from 'config/KialiIcon';
-import { aceOptions } from 'types/IstioConfigDetails';
+import { KialiIcon, defaultIconStyle } from '../../config/KialiIcon';
+import { aceOptions } from '../../types/IstioConfigDetails';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
-import { RenderComponentScroll } from 'components/Nav/Page';
-import { DashboardRef } from 'types/Runtimes';
-import { CustomMetrics } from 'components/Metrics/CustomMetrics';
-import { serverConfig } from 'config';
-import { FilterSelected } from 'components/Filters/StatefulFilters';
+import { RenderComponentScroll } from '../../components/Nav/Page';
+import { DashboardRef } from '../../types/Runtimes';
+import { CustomMetrics } from '../../components/Metrics/CustomMetrics';
+import { serverConfig } from '../../config';
+import { FilterSelected } from '../../components/Filters/StatefulFilters';
 import { history } from '../../app/History';
 import {
   tabName as workloadTabName,

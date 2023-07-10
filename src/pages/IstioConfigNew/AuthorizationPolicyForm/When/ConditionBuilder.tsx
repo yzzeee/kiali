@@ -7,7 +7,7 @@ import { isValidRequestHeaderName, isValidRequestAuthClaimName } from '../../../
 import { style } from 'typestyle';
 import { PFColors } from '../../../../components/Pf/PfColors';
 import { isValidIp } from '../../../../utils/IstioConfigUtils';
-import { isValid } from 'utils/Common';
+import { isValid } from '../../../../utils/Common';
 
 export type Condition = {
   key: string;

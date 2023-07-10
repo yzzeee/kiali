@@ -1,10 +1,10 @@
 import React from 'react';
-import { GraphToolbarActions } from 'actions/GraphToolbarActions';
+import { GraphToolbarActions } from '../../../actions/GraphToolbarActions';
 import { bindActionCreators } from 'redux';
-import { KialiDispatch } from 'types/Redux';
+import { KialiDispatch } from '../../../types/Redux';
 import { connect } from 'react-redux';
 import { Tooltip, Button, ButtonVariant } from '@patternfly/react-core';
-import { defaultIconStyle, KialiIcon } from 'config/KialiIcon';
+import { defaultIconStyle, KialiIcon } from '../../../config/KialiIcon';
 
 type ReduxProps = {
   resetSettings: () => void;

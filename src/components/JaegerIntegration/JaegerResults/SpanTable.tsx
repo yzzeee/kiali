@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
-import { KialiDispatch } from 'types/Redux';
+import { KialiDispatch } from '../../../types/Redux';
 import {
   Button,
   ButtonVariant,
@@ -26,23 +26,23 @@ import {
   IAction,
   ISeparator
 } from '@patternfly/react-table';
-import { compareNullable } from 'components/FilterList/FilterHelper';
-import { MetricsStats } from 'types/Metrics';
-import { KialiAppState } from 'store/Store';
-import { MetricsStatsQuery } from 'types/MetricsOptions';
-import { MetricsStatsThunkActions } from 'actions/MetricsStatsThunkActions';
-import { EnvoySpanInfo, OpenTracingHTTPInfo, OpenTracingTCPInfo, RichSpanData } from 'types/JaegerInfo';
-import { sameSpans } from 'utils/tracing/TracingHelper';
-import { buildQueriesFromSpans } from 'utils/tracing/TraceStats';
+import { compareNullable } from '../../../components/FilterList/FilterHelper';
+import { MetricsStats } from '../../../types/Metrics';
+import { KialiAppState } from '../../../store/Store';
+import { MetricsStatsQuery } from '../../../types/MetricsOptions';
+import { MetricsStatsThunkActions } from '../../../actions/MetricsStatsThunkActions';
+import { EnvoySpanInfo, OpenTracingHTTPInfo, OpenTracingTCPInfo, RichSpanData } from '../../../types/JaegerInfo';
+import { sameSpans } from '../../../utils/tracing/TracingHelper';
+import { buildQueriesFromSpans } from '../../../utils/tracing/TraceStats';
 import { getSpanId } from '../../../utils/SearchParamUtils';
 import { style } from 'typestyle';
 import { ExclamationCircleIcon } from '@patternfly/react-icons';
-import { formatDuration, isErrorTag } from 'utils/tracing/TracingHelper';
+import { formatDuration, isErrorTag } from '../../../utils/tracing/TracingHelper';
 import { Link } from 'react-router-dom';
-import { PFColors } from 'components/Pf/PfColors';
-import { responseFlags } from 'utils/ResponseFlags';
+import { PFColors } from '../../../components/Pf/PfColors';
+import { responseFlags } from '../../../utils/ResponseFlags';
 import { renderMetricsComparison } from './StatsComparison';
-import { history } from 'app/History';
+import { history } from '../../../app/History';
 import { AngleDownIcon, AngleRightIcon, ExternalLinkAltIcon } from '@patternfly/react-icons';
 import { isParentKiosk, kioskContextMenuAction } from '../../Kiosk/KioskActions';
 

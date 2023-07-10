@@ -6,7 +6,7 @@ import { cellWidth, ICell, Table, TableBody, TableHeader } from '@patternfly/rea
 import { style } from 'typestyle';
 import { PFColors } from '../../components/Pf/PfColors';
 import { PlusCircleIcon } from '@patternfly/react-icons';
-import { isValid } from 'utils/Common';
+import { isValid } from '../../utils/Common';
 
 const noPortMtlsStyle = style({
   marginTop: 15,

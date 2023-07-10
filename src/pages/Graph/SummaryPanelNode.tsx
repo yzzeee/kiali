@@ -11,8 +11,8 @@ import {
 import { DecoratedGraphNodeData, DestService, NodeType, RankResult, SummaryPanelPropType } from '../../types/Graph';
 import { getTitle, summaryBodyTabs, summaryFont, summaryHeader, summaryPanel } from './SummaryPanelCommon';
 import { decoratedNodeData } from '../../components/CytoscapeGraph/CytoscapeGraphUtils';
-import { KialiIcon } from 'config/KialiIcon';
-import { clickHandler, getOptions } from 'components/CytoscapeGraph/ContextMenu/NodeContextMenu';
+import { KialiIcon } from '../../config/KialiIcon';
+import { clickHandler, getOptions } from '../../components/CytoscapeGraph/ContextMenu/NodeContextMenu';
 import {
   Dropdown,
   DropdownGroup,
@@ -24,14 +24,14 @@ import {
 } from '@patternfly/react-core';
 import { SummaryPanelNodeTraffic } from './SummaryPanelNodeTraffic';
 import { SummaryPanelNodeTraces } from './SummaryPanelNodeTraces';
-import { SimpleTabs } from 'components/Tab/SimpleTabs';
-import { JaegerState } from 'reducers/JaegerState';
+import { SimpleTabs } from '../../components/Tab/SimpleTabs';
+import { JaegerState } from '../../reducers/JaegerState';
 import { classes, style } from 'typestyle';
-import { PFBadge, PFBadges } from 'components/Pf/PfBadges';
-import { ServiceDetailsInfo } from 'types/ServiceInfo';
-import { LoadingWizardActionsDropdownGroup } from 'components/IstioWizards/LoadingWizardActionsDropdownGroup';
-import { WizardAction, WizardMode } from 'components/IstioWizards/WizardActions';
-import { ServiceWizardActionsDropdownGroup } from 'components/IstioWizards/ServiceWizardActionsDropdownGroup';
+import { PFBadge, PFBadges } from '../../components/Pf/PfBadges';
+import { ServiceDetailsInfo } from '../../types/ServiceInfo';
+import { LoadingWizardActionsDropdownGroup } from '../../components/IstioWizards/LoadingWizardActionsDropdownGroup';
+import { WizardAction, WizardMode } from '../../components/IstioWizards/WizardActions';
+import { ServiceWizardActionsDropdownGroup } from '../../components/IstioWizards/ServiceWizardActionsDropdownGroup';
 import { PeerAuthentication } from '../../types/IstioObjects';
 import { useServiceDetailForGraphNode } from '../../hooks/services';
 import { useKialiSelector } from '../../hooks/redux';

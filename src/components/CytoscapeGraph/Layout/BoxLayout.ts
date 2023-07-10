@@ -37,7 +37,7 @@
  */
 
 import { CyNode } from '../CytoscapeGraphUtils';
-import { BoxByType } from 'types/Graph';
+import { BoxByType } from '../../../types/Graph';
 import { getLayoutByName } from '../graphs/LayoutDictionary';
 
 export const BOX_NODE_CLASS = '__boxNodeClass';

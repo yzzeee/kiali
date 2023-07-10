@@ -7,7 +7,7 @@ import { PFColors } from '../Pf/PfColors';
 import { Button, ButtonVariant, TooltipPosition } from '@patternfly/react-core';
 import { EqualizerIcon } from '@patternfly/react-icons';
 import { getDefaultWeights } from './WizardActions';
-import { PFBadge, PFBadges } from 'components/Pf/PfBadges';
+import { PFBadge, PFBadges } from '../../components/Pf/PfBadges';
 
 type Props = {
   workloads: WorkloadOverview[];

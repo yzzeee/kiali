@@ -5,9 +5,9 @@ import { IstioMetricsOptions, Reporter, Direction } from '../../types/MetricsOpt
 import * as API from '../../services/Api';
 import * as M from '../../types/Metrics';
 import { Response } from '../../services/Api';
-import { decoratedNodeData } from 'components/CytoscapeGraph/CytoscapeGraphUtils';
-import { PFColors } from 'components/Pf/PfColors';
-import { KialiIcon } from 'config/KialiIcon';
+import { decoratedNodeData } from '../../components/CytoscapeGraph/CytoscapeGraphUtils';
+import { PFColors } from '../../components/Pf/PfColors';
+import { KialiIcon } from '../../config/KialiIcon';
 
 export enum NodeMetricType {
   APP = 1,

@@ -1,12 +1,12 @@
 import { Label, Stack, StackItem, Title, TitleSizes, Tooltip, TooltipPosition } from '@patternfly/react-core';
-import { Labels } from 'components/Label/Labels';
-import { PFBadge, PFBadges } from 'components/Pf/PfBadges';
-import { LocalTime } from 'components/Time/LocalTime';
-import { ValidationObjectSummary } from 'components/Validations/ValidationObjectSummary';
-import { IstioTypes } from 'components/VirtualList/Config';
-import { KialiIcon } from 'config/KialiIcon';
+import { Labels } from '../../../components/Label/Labels';
+import { PFBadge, PFBadges } from '../../../components/Pf/PfBadges';
+import { LocalTime } from '../../../components/Time/LocalTime';
+import { ValidationObjectSummary } from '../../../components/Validations/ValidationObjectSummary';
+import { IstioTypes } from '../../../components/VirtualList/Config';
+import { KialiIcon } from '../../../config/KialiIcon';
 import * as React from 'react';
-import { IstioConfigDetails } from 'types/IstioConfigDetails';
+import { IstioConfigDetails } from '../../../types/IstioConfigDetails';
 import {
   HelpMessage,
   ObjectReference,
@@ -15,9 +15,9 @@ import {
   ValidationMessage,
   ValidationTypes,
   WorkloadReference
-} from 'types/IstioObjects';
+} from '../../../types/IstioObjects';
 import { style } from 'typestyle';
-import { getIstioObject, getReconciliationCondition } from 'utils/IstioConfigUtils';
+import { getIstioObject, getReconciliationCondition } from '../../../utils/IstioConfigUtils';
 import { IstioConfigHelp } from './IstioConfigHelp';
 import { IstioConfigReferences } from './IstioConfigReferences';
 import { IstioConfigValidationReferences } from './IstioConfigValidationReferences';

@@ -12,7 +12,7 @@ import {
   PeerAuthenticationMutualTLSMode
 } from '../../types/IstioObjects';
 import { LOAD_BALANCER_TOOLTIP, PEER_AUTHENTICATION_TOOLTIP, wizardTooltip } from './WizardHelp';
-import { isValid } from 'utils/Common';
+import { isValid } from '../../utils/Common';
 
 export const UNSET = 'UNSET';
 export const DISABLE = 'DISABLE';

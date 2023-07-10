@@ -21,11 +21,11 @@ import { Response } from '../../services/Api';
 import { IstioMetricsMap, Datapoint, Labels } from '../../types/Metrics';
 import { Reporter } from '../../types/MetricsOptions';
 import { CancelablePromise, makeCancelablePromise } from '../../utils/CancelablePromises';
-import { KialiIcon } from 'config/KialiIcon';
-import { decoratedNodeData, CyNode } from 'components/CytoscapeGraph/CytoscapeGraphUtils';
+import { KialiIcon } from '../../config/KialiIcon';
+import { decoratedNodeData, CyNode } from '../../components/CytoscapeGraph/CytoscapeGraphUtils';
 import { Dropdown, DropdownPosition, DropdownItem, KebabToggle, DropdownGroup } from '@patternfly/react-core';
-import { getOptions, clickHandler } from 'components/CytoscapeGraph/ContextMenu/NodeContextMenu';
-import { PFBadge, PFBadges } from 'components/Pf/PfBadges';
+import { getOptions, clickHandler } from '../../components/CytoscapeGraph/ContextMenu/NodeContextMenu';
+import { PFBadge, PFBadges } from '../../components/Pf/PfBadges';
 
 type SummaryPanelAppBoxMetricsState = {
   grpcRequestIn: Datapoint[];

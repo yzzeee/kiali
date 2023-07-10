@@ -1,13 +1,13 @@
 import * as Cy from 'cytoscape';
 import { CyNode } from './CytoscapeGraphUtils';
-import { JaegerTrace, Span } from 'types/JaegerInfo';
-import { NodeType, GraphType, SEInfo } from 'types/Graph';
+import { JaegerTrace, Span } from '../../types/JaegerInfo';
+import { NodeType, GraphType, SEInfo } from '../../types/Graph';
 import {
   getAppFromSpan,
   getWorkloadFromSpan,
   searchParentApp,
   searchParentWorkload
-} from 'utils/tracing/TracingHelper';
+} from '../../utils/tracing/TracingHelper';
 
 export const showTrace = (cy: Cy.Core, graphType: GraphType, trace: JaegerTrace) => {
   if (!cy) {

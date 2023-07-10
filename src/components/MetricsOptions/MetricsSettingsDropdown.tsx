@@ -19,11 +19,11 @@ import {
   prettyLabelValues,
   combineLabelsSettings,
   retrieveMetricsSettings
-} from 'components/Metrics/Helper';
-import { titleStyle } from 'styles/DropdownStyles';
+} from '../../components/Metrics/Helper';
+import { titleStyle } from '../../styles/DropdownStyles';
 import { PFColors } from '../Pf/PfColors';
-import { PromLabel } from 'types/Metrics';
-import { KialiIcon } from 'config/KialiIcon';
+import { PromLabel } from '../../types/Metrics';
+import { KialiIcon } from '../../config/KialiIcon';
 
 interface Props {
   onChanged: (state: MetricsSettings) => void;

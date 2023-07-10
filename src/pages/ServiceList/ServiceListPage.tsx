@@ -23,7 +23,7 @@ import { sortIstioReferences } from '../AppList/FiltersAndSorts';
 import { validationKey } from '../../types/IstioConfigList';
 import { ServiceHealth } from '../../types/Health';
 import { RefreshNotifier } from '../../components/Refresh/RefreshNotifier';
-import { isMultiCluster } from 'config';
+import { isMultiCluster } from '../../config';
 
 type ServiceListPageState = FilterComponent.State<ServiceListItem>;
 

@@ -6,7 +6,7 @@ import { PFColors } from '../../components/Pf/PfColors';
 import { Button, ButtonVariant, FormGroup, Switch, TextInputBase as TextInput } from '@patternfly/react-core';
 import { isSidecarHostValid } from '../../utils/IstioConfigUtils';
 import { PlusCircleIcon } from '@patternfly/react-icons';
-import { isValid } from 'utils/Common';
+import { isValid } from '../../utils/Common';
 
 const headerCells: ICell[] = [
   {

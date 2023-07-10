@@ -5,19 +5,19 @@ import { IRow, sortable, SortByDirection, Table, TableBody, TableHeader, cellWid
 import { Link } from 'react-router-dom';
 import { TrafficItem, TrafficNode, TrafficDirection } from './TrafficDetails';
 import * as FilterComponent from '../FilterList/FilterComponent';
-import { ThresholdStatus, NA } from 'types/Health';
-import { NodeType, hasProtocolTraffic, ProtocolTraffic } from 'types/Graph';
-import { getTrafficHealth } from 'types/ErrorRate';
-import { history, URLParam } from 'app/History';
-import { createIcon } from 'components/Health/Helper';
+import { ThresholdStatus, NA } from '../../types/Health';
+import { NodeType, hasProtocolTraffic, ProtocolTraffic } from '../../types/Graph';
+import { getTrafficHealth } from '../../types/ErrorRate';
+import { history, URLParam } from '../../app/History';
+import { createIcon } from '../../components/Health/Helper';
 import { sortFields } from './FiltersAndSorts';
-import { SortField } from 'types/SortFilters';
-import { PFBadgeType, PFBadge, PFBadges } from 'components/Pf/PfBadges';
-import { createTooltipIcon, KialiIcon } from 'config/KialiIcon';
+import { SortField } from '../../types/SortFilters';
+import { PFBadgeType, PFBadge, PFBadges } from '../../components/Pf/PfBadges';
+import { createTooltipIcon, KialiIcon } from '../../config/KialiIcon';
 import { KialiAppState } from '../../store/Store';
 import { connect } from 'react-redux';
 import { isParentKiosk, kioskContextMenuAction } from '../Kiosk/KioskActions';
-import { isMultiCluster } from 'config';
+import { isMultiCluster } from '../../config';
 
 export interface TrafficListItem {
   direction: TrafficDirection;

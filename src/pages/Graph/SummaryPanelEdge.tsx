@@ -31,12 +31,12 @@ import { Metric, Datapoint, IstioMetricsMap, Labels } from '../../types/Metrics'
 import { Response } from '../../services/Api';
 import { CancelablePromise, makeCancelablePromise } from '../../utils/CancelablePromises';
 import { decoratedEdgeData, decoratedNodeData } from '../../components/CytoscapeGraph/CytoscapeGraphUtils';
-import { ResponseFlagsTable } from 'components/SummaryPanel/ResponseFlagsTable';
-import { ResponseHostsTable } from 'components/SummaryPanel/ResponseHostsTable';
-import { KialiIcon } from 'config/KialiIcon';
+import { ResponseFlagsTable } from '../../components/SummaryPanel/ResponseFlagsTable';
+import { ResponseHostsTable } from '../../components/SummaryPanel/ResponseHostsTable';
+import { KialiIcon } from '../../config/KialiIcon';
 import { Tab, Tooltip } from '@patternfly/react-core';
-import { SimpleTabs } from 'components/Tab/SimpleTabs';
-import { Direction } from 'types/MetricsOptions';
+import { SimpleTabs } from '../../components/Tab/SimpleTabs';
+import { Direction } from '../../types/MetricsOptions';
 import { style } from 'typestyle';
 
 type SummaryPanelEdgeMetricsState = {

@@ -1,4 +1,4 @@
-import { PFColors } from 'components/Pf/PfColors';
+import { PFColors } from '../components/Pf/PfColors';
 import { style } from 'typestyle';
 import { NestedCSSProperties } from 'typestyle/lib/types';
 

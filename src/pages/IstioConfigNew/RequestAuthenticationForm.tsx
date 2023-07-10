@@ -4,7 +4,7 @@ import { TextInputBase as TextInput } from '@patternfly/react-core/dist/js/compo
 import { JWTRule } from '../../types/IstioObjects';
 import { JwtRuleBuilder } from './RequestAuthorizationForm/JwtRuleBuilder';
 import { JwtRuleList } from './RequestAuthorizationForm/JwtRuleList';
-import { isValid } from 'utils/Common';
+import { isValid } from '../../utils/Common';
 
 type Props = {
   requestAuthentication: RequestAuthenticationState;

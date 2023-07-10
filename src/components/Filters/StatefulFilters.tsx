@@ -30,10 +30,10 @@ import * as FilterHelper from '../FilterList/FilterHelper';
 import { PromisesRegistry } from '../../utils/CancelablePromises';
 import { style } from 'typestyle';
 import { LabelFilters } from './LabelFilter';
-import { arrayEquals } from 'utils/Common';
+import { arrayEquals } from '../../utils/Common';
 import { labelFilter } from './CommonFilters';
-import { history, HistoryManager } from 'app/History';
-import { serverConfig } from 'config';
+import { history, HistoryManager } from '../../app/History';
+import { serverConfig } from '../../config';
 
 var classNames = require('classnames');
 

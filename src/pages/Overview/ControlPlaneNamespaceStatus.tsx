@@ -1,7 +1,7 @@
 import { Tooltip, TooltipPosition, Label } from '@patternfly/react-core';
-import { KialiIcon } from 'config/KialiIcon';
+import { KialiIcon } from '../../config/KialiIcon';
 import * as React from 'react';
-import { OutboundTrafficPolicy } from 'types/IstioObjects';
+import { OutboundTrafficPolicy } from '../../types/IstioObjects';
 import { NamespaceInfo } from './NamespaceInfo';
 import { infoStyle } from './OverviewCardControlPlaneNamespace';
 
