@@ -7,7 +7,7 @@ import { PFColors } from '../../components/Pf/PfColors';
 import { SparklineChart } from '../../components/Charts/SparklineChart';
 import { toVCLine } from '../../utils/VictoryChartsUtils';
 
-import '../../components/Charts/Charts.css';
+import '../../components/Charts/Charts.scss';
 import { RichDataPoint, VCLine } from '../../types/VictoryChartInfo';
 import { DirectionType } from './OverviewToolbar';
 

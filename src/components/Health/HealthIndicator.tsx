@@ -4,7 +4,7 @@ import { HealthDetails } from './HealthDetails';
 import * as H from '../../types/Health';
 import { createIcon } from './Helper';
 import { createTooltipIcon } from '../../config/KialiIcon';
-import './Health.css';
+import './Health.scss';
 
 interface Props {
   id: string;

@@ -24,7 +24,7 @@ import {
 } from '../../types/AceValidations';
 import { IstioActionDropdown } from '../../components/IstioActions/IstioActionsDropdown';
 import { RenderComponentScroll } from '../../components/Nav/Page';
-import './IstioConfigDetailsPage.css';
+import './IstioConfigDetailsPage.scss';
 import { IstioActionButtons } from '../../components/IstioActions/IstioActionsButtons';
 import { history } from '../../app/History';
 import { Paths } from '../../config';

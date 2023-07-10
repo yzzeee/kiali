@@ -9,7 +9,7 @@ import { Datapoint } from '../../types/Metrics';
 import { toVCLine } from '../../utils/VictoryChartsUtils';
 import { RichDataPoint, VCDataPoint, VCLine, VCLines } from '../../types/VictoryChartInfo';
 
-import '../../components/Charts/Charts.css';
+import '../../components/Charts/Charts.scss';
 import { summaryTitle } from '../../pages/Graph/SummaryPanelCommon';
 
 type RequestChartProp = {
