@@ -1805,6 +1805,11 @@
     tippy.js "5.1.2"
     tslib "^2.0.0"
 
+"@patternfly/react-icons@4.49.5":
+  version "4.49.5"
+  resolved "https://registry.yarnpkg.com/@patternfly/react-icons/-/react-icons-4.49.5.tgz#ac8c0282b904e8016a0a1dd4db63988e121b4358"
+  integrity sha512-pR04R32KZAd4uPWeFf/pYXp0uUTwDotsM1iPbjJ6Rpl1sELM4LuQV4gaG22dWLy24VCRizFoP6BSzDxmq+GY4g==
+
 "@patternfly/react-icons@^4.49.19", "@patternfly/react-icons@^4.49.5":
   version "4.49.19"
   resolved "https://registry.yarnpkg.com/@patternfly/react-icons/-/react-icons-4.49.19.tgz#66f426570378213f6f717d4a39fadcbf57635d1e"
@@ -2660,6 +2665,11 @@ accepts@~1.3.4, accepts@~1.3.5, accepts@~1.3.8:
   dependencies:
     mime-types "~2.1.34"
     negotiator "0.6.3"
+
+ace-builds@1.4.6:
+  version "1.4.6"
+  resolved "https://registry.yarnpkg.com/ace-builds/-/ace-builds-1.4.6.tgz#ff6abd5f31472f33c1958ab99e0de6b63db3c964"
+  integrity sha512-JpuzcHQxTO6Nk8Q1Y8fVQAaxpimziAvVe/CX4h39ig0iHTtBNuySOGHUxmno8mNe4IMbjO8RJICmsrQKTdTWpQ==
 
 ace-builds@^1.4.6:
   version "1.4.12"
