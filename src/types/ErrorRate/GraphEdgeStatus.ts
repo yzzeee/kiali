@@ -19,7 +19,7 @@ import {
 import { aggregate, checkExpr, getRateHealthConfig, transformEdgeResponses } from './utils';
 import { RequestTolerance } from './types';
 import { RateHealth } from '../HealthAnnotation';
-import { decoratedEdgeData, decoratedNodeData } from 'components/CytoscapeGraph/CytoscapeGraphUtils';
+import { decoratedEdgeData, decoratedNodeData } from '../../components/CytoscapeGraph/CytoscapeGraphUtils';
 
 export const assignEdgeHealth = (cy: any) => {
   const cyGlobal = cy.scratch(CytoscapeGlobalScratchNamespace);

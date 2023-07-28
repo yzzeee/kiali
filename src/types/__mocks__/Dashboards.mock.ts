@@ -1,4 +1,4 @@
-import { DashboardModel } from 'types/Dashboards';
+import { DashboardModel } from '../../types/Dashboards';
 import seedrandom from 'seedrandom';
 import {
   generateRandomMetricChart,

@@ -3,7 +3,7 @@ import { RequestHealth, RequestType } from '../../Health';
 import { HealthAnnotationType } from '../../HealthAnnotation';
 import { TrafficItem } from '../../../components/TrafficList/TrafficDetails';
 import { NodeType, Responses } from '../../Graph';
-import { ServerConfig } from 'types/ServerConfig';
+import { ServerConfig } from '../../../types/ServerConfig';
 
 const codes = ['200', '400', '404', '500'];
 export const annotationSample: HealthAnnotationType = { 'health.kiali.io/rate': '4XX,10,20,http,inbound' };

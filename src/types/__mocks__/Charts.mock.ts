@@ -1,8 +1,8 @@
 import seedrandom from 'seedrandom';
-import { ChartModel, SpanValue } from 'types/Dashboards';
-import { Datapoint, Labels, Metric } from 'types/Metrics';
-import { LabelsInfo } from 'utils/TimeSeriesUtils';
-import { makeLegend, VCLine, RichDataPoint, LineInfo } from 'types/VictoryChartInfo';
+import { ChartModel, SpanValue } from '../../types/Dashboards';
+import { Datapoint, Labels, Metric } from '../../types/Metrics';
+import { LabelsInfo } from '../../utils/TimeSeriesUtils';
+import { makeLegend, VCLine, RichDataPoint, LineInfo } from '../../types/VictoryChartInfo';
 
 const t0 = 1556802000;
 const increment = 60;

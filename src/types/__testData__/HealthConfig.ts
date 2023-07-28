@@ -1,4 +1,4 @@
-import { ServerConfig } from 'types/ServerConfig';
+import { ServerConfig } from '../../types/ServerConfig';
 import { getExpr } from '../../config/HealthConfig';
 
 export const healthConfig = {

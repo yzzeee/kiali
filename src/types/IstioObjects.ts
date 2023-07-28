@@ -2,8 +2,8 @@ import { Namespace } from './Namespace';
 import { ServicePort } from './ServiceInfo';
 import { ProxyStatus } from './Health';
 import { TimeInSeconds } from './Common';
-import { KIALI_RELATED_LABEL, KIALI_WIZARD_LABEL } from 'components/IstioWizards/WizardActions';
-import { PFColorVal } from 'components/Pf/PfColors';
+import { KIALI_RELATED_LABEL, KIALI_WIZARD_LABEL } from '../components/IstioWizards/WizardActions';
+import { PFColorVal } from '../components/Pf/PfColors';
 
 // Common types
 
