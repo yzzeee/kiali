@@ -57,7 +57,7 @@ import {
   WarningTriangleIcon,
   ProcessAutomationIcon
 } from '@patternfly/react-icons';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../styles/StyleUtils';
 
 export const defaultIconStyle = kialiStyle({
   // nothing special
