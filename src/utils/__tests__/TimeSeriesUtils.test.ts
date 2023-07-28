@@ -1,6 +1,6 @@
-import { genSeries } from 'types/__mocks__/Charts.mock';
-import { filterAndRenameMetric, LabelsInfo } from 'utils/TimeSeriesUtils';
-import { SingleLabelValues } from 'types/Metrics';
+import { genSeries } from '../../types/__mocks__/Charts.mock';
+import { filterAndRenameMetric, LabelsInfo } from '../../utils/TimeSeriesUtils';
+import { SingleLabelValues } from '../../types/Metrics';
 
 describe('TimeSeries Utils', () => {
   it('should rename different metrics with labels', () => {

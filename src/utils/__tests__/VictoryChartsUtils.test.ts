@@ -6,9 +6,9 @@ import {
   metricWithLabels,
   emptyLabels,
   labelsWithPrettifier
-} from 'types/__mocks__/Charts.mock';
-import { LineInfo } from 'types/VictoryChartInfo';
-import { ChartModel } from 'types/Dashboards';
+} from '../../types/__mocks__/Charts.mock';
+import { LineInfo } from '../../types/VictoryChartInfo';
+import { ChartModel } from '../../types/Dashboards';
 
 const t0 = new Date('2019-05-02T13:00:00.000Z');
 const t1 = new Date('2019-05-02T13:01:00.000Z');

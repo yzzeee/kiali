@@ -8,7 +8,7 @@ import {
   Validations
 } from '../types/IstioObjects';
 import _ from 'lodash';
-import { IstioConfigItem } from 'types/IstioConfigList';
+import { IstioConfigItem } from '../types/IstioConfigList';
 
 export const mergeJsonPatch = (objectModified: object, object?: object): object => {
   if (!object) {

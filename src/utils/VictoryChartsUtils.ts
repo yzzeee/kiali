@@ -1,4 +1,4 @@
-import { Datapoint, Metric } from 'types/Metrics';
+import { Datapoint, Metric } from '../types/Metrics';
 import {
   VCLines,
   VCLine,
@@ -8,10 +8,10 @@ import {
   RichDataPoint,
   LineInfo,
   BucketDataPoint
-} from 'types/VictoryChartInfo';
-import { filterAndRenameMetric, LabelsInfo } from 'utils/TimeSeriesUtils';
-import { ChartModel, XAxisType } from 'types/Dashboards';
-import { Overlay, OverlayInfo } from 'types/Overlay';
+} from '../types/VictoryChartInfo';
+import { filterAndRenameMetric, LabelsInfo } from '../utils/TimeSeriesUtils';
+import { ChartModel, XAxisType } from '../types/Dashboards';
+import { Overlay, OverlayInfo } from '../types/Overlay';
 
 export const toVCDatapoints = (dps: Datapoint[], name: string): VCDataPoint[] => {
   return dps

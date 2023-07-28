@@ -1,5 +1,5 @@
 import _ from 'lodash';
-import { EdgeAttr, NodeAttr } from 'types/Graph';
+import { EdgeAttr, NodeAttr } from '../types/Graph';
 
 const safeRate = (rate: any) => (isNaN(rate) ? 0.0 : Number(rate));
 

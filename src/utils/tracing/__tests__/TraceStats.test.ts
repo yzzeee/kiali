@@ -1,6 +1,6 @@
-import { EnvoySpanInfo, JaegerTrace, Span, RichSpanData } from 'types/JaegerInfo';
-import { MetricsStats } from 'types/Metrics';
-import { statsQueryToKey } from 'types/MetricsOptions';
+import { EnvoySpanInfo, JaegerTrace, Span, RichSpanData } from '../../../types/JaegerInfo';
+import { MetricsStats } from '../../../types/Metrics';
+import { statsQueryToKey } from '../../../types/MetricsOptions';
 import { averageSpanDuration, buildQueriesFromSpans, isSimilarTrace, reduceMetricsStats } from '../TraceStats';
 
 const traceBase = {

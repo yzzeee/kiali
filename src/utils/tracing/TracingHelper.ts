@@ -8,9 +8,9 @@ import {
   OpenTracingHTTPInfo,
   OpenTracingTCPInfo,
   Span
-} from 'types/JaegerInfo';
-import { retrieveTimeRange } from 'components/Time/TimeRangeHelper';
-import { guardTimeRange, durationToBounds, DurationInSeconds } from 'types/Common';
+} from '../../types/JaegerInfo';
+import { retrieveTimeRange } from '../../components/Time/TimeRangeHelper';
+import { guardTimeRange, durationToBounds, DurationInSeconds } from '../../types/Common';
 import { spansSort } from './TraceTransform';
 
 export const defaultTracingDuration: DurationInSeconds = 600;
