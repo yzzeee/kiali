@@ -1,10 +1,10 @@
-import * as API from 'services/Api';
-import * as AlertUtils from 'utils/AlertUtils';
-import { JaegerTrace, JaegerError } from 'types/JaegerInfo';
-import { TracingQuery } from 'types/Tracing';
-import { TargetKind } from 'types/Common';
-import { getTimeRangeMicros } from 'utils/tracing/TracingHelper';
-import { transformTraceData } from 'utils/tracing/TraceTransform';
+import * as API from '../../services/Api';
+import * as AlertUtils from '../../utils/AlertUtils';
+import { JaegerTrace, JaegerError } from '../../types/JaegerInfo';
+import { TracingQuery } from '../../types/Tracing';
+import { TargetKind } from '../../types/Common';
+import { getTimeRangeMicros } from '../../utils/tracing/TracingHelper';
+import { transformTraceData } from '../../utils/tracing/TraceTransform';
 
 export type FetchOptions = {
   namespace: string;

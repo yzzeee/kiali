@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Text, TextVariants } from '@patternfly/react-core';
 import { ValidationSummary } from './ValidationSummary';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../styles/StyleUtils';
 
 const tooltipListStyle = kialiStyle({
   textAlign: 'left',

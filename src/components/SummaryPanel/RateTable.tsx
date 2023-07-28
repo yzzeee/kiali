@@ -1,4 +1,4 @@
-import { summaryTitle } from 'pages/Graph/SummaryPanelCommon';
+import { summaryTitle } from '../../pages/Graph/SummaryPanelCommon';
 import * as React from 'react';
 import { renderRateChartHttp, renderRateChartGrpc } from './RateChart';
 

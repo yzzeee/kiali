@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
-import { KialiDispatch } from 'types/Redux';
+import { KialiDispatch } from '../../types/Redux';
 import { RenderPage } from './RenderPage';
 import { RouteComponentProps } from 'react-router';
 import { MastheadItems } from './Masthead/Masthead';
@@ -17,7 +17,7 @@ import {
   ButtonVariant
 } from '@patternfly/react-core';
 import { BarsIcon } from '@patternfly/react-icons';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../styles/StyleUtils';
 import { MessageCenter } from '../../components/MessageCenter/MessageCenter';
 import { kialiLogo, serverConfig } from '../../config';
 import { KialiAppState } from '../../store/Store';

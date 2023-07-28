@@ -1,7 +1,7 @@
 import { Label, Tooltip, TooltipPosition } from '@patternfly/react-core';
-import { KialiIcon } from 'config/KialiIcon';
+import { KialiIcon } from '../../config/KialiIcon';
 import * as React from 'react';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../styles/StyleUtils';
 import { KialiAppState } from '../../store/Store';
 import { istioCertsInfoSelector } from '../../store/Selectors';
 import { CertsInfo } from '../../types/CertsInfo';

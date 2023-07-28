@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Label } from './Label';
 import { Button, ButtonVariant, Tooltip, TooltipPosition } from '@patternfly/react-core';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../styles/StyleUtils';
 import { KialiIcon } from '../../config/KialiIcon';
 
 const SHOW_MORE_TRESHOLD = 2;

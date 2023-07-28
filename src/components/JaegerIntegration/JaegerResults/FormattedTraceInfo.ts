@@ -1,8 +1,8 @@
 import { JaegerTrace } from '../../../types/JaegerInfo';
 import moment from 'moment';
-import { kialiStyle } from 'styles/StyleUtils';
-import { PFColors } from 'components/Pf/PfColors';
-import { formatDuration, formatRelativeDate, isErrorTag } from 'utils/tracing/TracingHelper';
+import { kialiStyle } from '../../../styles/StyleUtils';
+import { PFColors } from '../../../components/Pf/PfColors';
+import { formatDuration, formatRelativeDate, isErrorTag } from '../../../utils/tracing/TracingHelper';
 
 export const shortIDStyle = kialiStyle({
   color: PFColors.Black600,

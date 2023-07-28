@@ -9,7 +9,7 @@ import {
   Title,
   TitleSizes
 } from '@patternfly/react-core';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../styles/StyleUtils';
 import * as _ from 'lodash';
 import { Namespace } from '../../types/Namespace';
 import { KialiIcon } from '../../config/KialiIcon';

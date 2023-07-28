@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Button, Tabs, Tab, ButtonVariant } from '@patternfly/react-core';
 import { MatchBuilder } from './MatchBuilder';
 import { Matches } from './Matches';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../../styles/StyleUtils';
 import { WorkloadOverview } from '../../../types/ServiceInfo';
 import { TrafficShifting, WorkloadWeight } from '../TrafficShifting';
 import { FaultInjection, FaultInjectionRoute } from '../FaultInjection';

@@ -1,22 +1,22 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import { KialiDispatch } from 'types/Redux';
-import { KialiAppState } from 'store/Store';
-import { replayQueryTimeSelector, durationSelector } from 'store/Selectors';
+import { KialiDispatch } from '../../types/Redux';
+import { KialiAppState } from '../../store/Store';
+import { replayQueryTimeSelector, durationSelector } from '../../store/Selectors';
 import { Tooltip, ButtonVariant, Button, Text } from '@patternfly/react-core';
-import { DurationInSeconds, IntervalInMilliseconds, TimeInMilliseconds } from 'types/Common';
-import { ToolbarDropdown } from 'components/ToolbarDropdown/ToolbarDropdown';
-import { UserSettingsActions } from 'actions/UserSettingsActions';
-import { Slider } from 'components/IstioWizards/Slider/Slider';
-import { KialiIcon, defaultIconStyle } from 'config/KialiIcon';
-import { kialiStyle } from 'styles/StyleUtils';
+import { DurationInSeconds, IntervalInMilliseconds, TimeInMilliseconds } from '../../types/Common';
+import { ToolbarDropdown } from '../../components/ToolbarDropdown/ToolbarDropdown';
+import { UserSettingsActions } from '../../actions/UserSettingsActions';
+import { Slider } from '../../components/IstioWizards/Slider/Slider';
+import { KialiIcon, defaultIconStyle } from '../../config/KialiIcon';
+import { kialiStyle } from '../../styles/StyleUtils';
 import { toString } from './Utils';
-import { serverConfig } from 'config';
-import { PFColors } from 'components/Pf/PfColors';
+import { serverConfig } from '../../config';
+import { PFColors } from '../../components/Pf/PfColors';
 import { DateTimePicker } from './DateTimePicker';
 import _ from 'lodash';
-import { history, HistoryManager, URLParam } from 'app/History';
+import { history, HistoryManager, URLParam } from '../../app/History';
 
 type ReduxProps = {
   duration: DurationInSeconds;

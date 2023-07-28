@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { cellWidth, ICell, Table, TableHeader, TableBody } from '@patternfly/react-table';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../../styles/StyleUtils';
 import { PFColors } from '../../Pf/PfColors';
 import {
   EmptyState,
@@ -10,7 +10,7 @@ import {
   TitleSizes,
   TooltipPosition
 } from '@patternfly/react-core';
-import { PFBadge, PFBadges } from 'components/Pf/PfBadges';
+import { PFBadge, PFBadges } from '../../../components/Pf/PfBadges';
 import { ROUTE_RULES_TOOLTIP, wizardTooltip } from '../WizardHelp';
 import { K8sRouteBackendRef } from '../K8sTrafficShifting';
 

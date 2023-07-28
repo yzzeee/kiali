@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Form, FormGroup, TextInput } from '@patternfly/react-core';
 import { K8sGatewaySelectorState } from './K8sGatewaySelector';
-import { isValid } from 'utils/Common';
+import { isValid } from '../../utils/Common';
 import { isK8sGatewayHostValid } from '../../utils/IstioConfigUtils';
 
 type Props = {

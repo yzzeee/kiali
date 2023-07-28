@@ -16,7 +16,7 @@ import { IstioStatusList } from './IstioStatusList';
 import { PFColors } from '../Pf/PfColors';
 import './IstioStatus.css';
 import { ResourcesFullIcon } from '@patternfly/react-icons';
-import { KialiDispatch } from 'types/Redux';
+import { KialiDispatch } from '../../types/Redux';
 import { NamespaceThunkActions } from '../../actions/NamespaceThunkActions';
 import { connectRefresh } from '../Refresh/connectRefresh';
 

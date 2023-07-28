@@ -1,4 +1,4 @@
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../../styles/StyleUtils';
 import { PFColors, PFColorVal, PFColorVals } from '../../../components/Pf/PfColors';
 import { DEGRADED, FAILURE } from '../../../types/Health';
 import {
@@ -20,8 +20,8 @@ import NodeImageKey from '../../../assets/img/node-background-key.png';
 import { decoratedEdgeData, decoratedNodeData } from '../CytoscapeGraphUtils';
 import _ from 'lodash';
 import * as Cy from 'cytoscape';
-import { PFBadges } from 'components/Pf/PfBadges';
-import { config } from 'config/Config';
+import { PFBadges } from '../../../components/Pf/PfBadges';
+import { config } from '../../../config/Config';
 import { kialiBadge, PFBadgeType } from '../../Pf/PfBadges';
 import { NestedCSSProperties } from 'typestyle/lib/types';
 

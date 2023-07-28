@@ -7,7 +7,7 @@ import { ServiceListItem } from '../../types/ServiceList';
 import { IstioConfigItem } from '../../types/IstioConfigList';
 import * as Renderers from './Renderers';
 import { Health } from '../../types/Health';
-import { isIstioNamespace } from 'config/ServerConfig';
+import { isIstioNamespace } from '../../config/ServerConfig';
 import { NamespaceInfo } from '../../pages/Overview/NamespaceInfo';
 import * as React from 'react';
 import { StatefulFilters } from '../Filters/StatefulFilters';

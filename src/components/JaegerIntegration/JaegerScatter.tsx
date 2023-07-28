@@ -1,22 +1,22 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
-import { KialiDispatch } from 'types/Redux';
+import { KialiDispatch } from '../../types/Redux';
 import { ChartScatter } from '@patternfly/react-charts';
 import { Title, EmptyState, EmptyStateVariant, EmptyStateBody, TitleSizes } from '@patternfly/react-core';
 import { JaegerError, JaegerTrace } from '../../types/JaegerInfo';
 import { PFColors } from '../Pf/PfColors';
-import { evalTimeRange } from 'types/Common';
-import { KialiAppState } from 'store/Store';
-import { JaegerThunkActions } from 'actions/JaegerThunkActions';
-import { LineInfo, makeLegend, VCDataPoint } from 'types/VictoryChartInfo';
-import { ChartWithLegend } from 'components/Charts/ChartWithLegend';
+import { evalTimeRange } from '../../types/Common';
+import { KialiAppState } from '../../store/Store';
+import { JaegerThunkActions } from '../../actions/JaegerThunkActions';
+import { LineInfo, makeLegend, VCDataPoint } from '../../types/VictoryChartInfo';
+import { ChartWithLegend } from '../../components/Charts/ChartWithLegend';
 import { durationSelector } from '../../store/Selectors';
 import { TraceTooltip } from './TraceTooltip';
-import { isErrorTag } from 'utils/tracing/TracingHelper';
-import { averageSpanDuration, buildQueriesFromSpans } from 'utils/tracing/TraceStats';
-import { kialiStyle } from 'styles/StyleUtils';
-import { MetricsStatsQuery } from 'types/MetricsOptions';
-import { MetricsStatsThunkActions } from 'actions/MetricsStatsThunkActions';
+import { isErrorTag } from '../../utils/tracing/TracingHelper';
+import { averageSpanDuration, buildQueriesFromSpans } from '../../utils/tracing/TraceStats';
+import { kialiStyle } from '../../styles/StyleUtils';
+import { MetricsStatsQuery } from '../../types/MetricsOptions';
+import { MetricsStatsThunkActions } from '../../actions/MetricsStatsThunkActions';
 
 interface JaegerScatterProps {
   duration: number;

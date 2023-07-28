@@ -8,7 +8,7 @@ import { connect } from 'react-redux';
 import { isUpstream } from '../../UpstreamDetector/UpstreamDetector';
 import { Status, ExternalServiceInfo, StatusKey } from '../../../types/StatusState';
 import { config, serverConfig } from '../../../config';
-import { IstioCertsInfo } from 'components/IstioCertsInfo/IstioCertsInfo';
+import { IstioCertsInfo } from '../../../components/IstioCertsInfo/IstioCertsInfo';
 
 type HelpDropdownProps = {
   status: Status;

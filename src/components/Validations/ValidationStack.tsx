@@ -3,7 +3,7 @@ import { ObjectCheck, ValidationTypes } from '../../types/IstioObjects';
 import { Validation } from './Validation';
 import { highestSeverity } from '../../types/ServiceInfo';
 import { Stack, StackItem, Text, TextVariants } from '@patternfly/react-core';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../styles/StyleUtils';
 import { PFColors } from '../Pf/PfColors';
 
 type Props = {

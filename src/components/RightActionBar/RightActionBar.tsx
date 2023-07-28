@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../styles/StyleUtils';
 
 export const actionBarStyle = kialiStyle({
   position: 'absolute',

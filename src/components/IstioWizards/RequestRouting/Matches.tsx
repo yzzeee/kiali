@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Chip } from '@patternfly/react-core';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../../styles/StyleUtils';
 import { MATCHING_SELECTED_TOOLTIP, wizardTooltip } from '../WizardHelp';
 
 type Props = {

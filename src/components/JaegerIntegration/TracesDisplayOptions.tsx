@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { Checkbox, Dropdown, DropdownToggle, Radio, Tooltip, TooltipPosition } from '@patternfly/react-core';
-import { infoStyle, itemStyleWithoutInfo, menuStyle, titleStyle } from 'styles/DropdownStyles';
-import { HistoryManager, URLParam } from 'app/History';
-import { KialiIcon } from 'config/KialiIcon';
+import { infoStyle, itemStyleWithoutInfo, menuStyle, titleStyle } from '../../styles/DropdownStyles';
+import { HistoryManager, URLParam } from '../../app/History';
+import { KialiIcon } from '../../config/KialiIcon';
 
 export interface QuerySettings {
   percentile?: string;

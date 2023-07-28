@@ -14,11 +14,11 @@ import { retrieveTimeRange, storeTimeRange } from './TimeRangeHelper';
 import { DateTimePicker } from './DateTimePicker';
 import { KialiAppState } from '../../store/Store';
 import { timeRangeSelector } from '../../store/Selectors';
-import { KialiDispatch } from 'types/Redux';
+import { KialiDispatch } from '../../types/Redux';
 import { UserSettingsActions } from '../../actions/UserSettingsActions';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../styles/StyleUtils';
 
 type Props = {
   manageURL?: boolean;

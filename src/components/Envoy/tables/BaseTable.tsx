@@ -11,7 +11,7 @@ import { Namespace } from '../../../types/Namespace';
 import { ToolbarDropdown } from '../../ToolbarDropdown/ToolbarDropdown';
 import { PFBadge, PFBadges } from '../../Pf/PfBadges';
 import { TooltipPosition } from '@patternfly/react-core';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../../styles/StyleUtils';
 
 export interface SummaryTable {
   head: () => ICell[];

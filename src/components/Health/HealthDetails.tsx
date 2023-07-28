@@ -5,7 +5,7 @@ import { InfoAltIcon } from '@patternfly/react-icons';
 import './Health.css';
 import { PFColors } from '../Pf/PfColors';
 import { Title, TitleSizes } from '@patternfly/react-core';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../styles/StyleUtils';
 
 interface Props {
   health: H.Health;

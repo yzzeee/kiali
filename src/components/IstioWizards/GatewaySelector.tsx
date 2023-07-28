@@ -10,7 +10,7 @@ import {
   TextInput
 } from '@patternfly/react-core';
 import { GATEWAY_TOOLTIP, wizardTooltip } from './WizardHelp';
-import { isValid } from 'utils/Common';
+import { isValid } from '../../utils/Common';
 
 type Props = {
   serviceName: string;

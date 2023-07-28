@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { ChartTooltip, ChartTooltipProps, ChartLabel, ChartPoint, ChartCursorFlyout } from '@patternfly/react-charts';
-import { VCDataPoint } from 'types/VictoryChartInfo';
+import { VCDataPoint } from '../../types/VictoryChartInfo';
 
 const dy = 15;
 const headSize = 2 * dy;

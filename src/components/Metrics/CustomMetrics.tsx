@@ -13,7 +13,7 @@ import {
   Title,
   TitleSizes
 } from '@patternfly/react-core';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../styles/StyleUtils';
 import { serverConfig } from '../../config/ServerConfig';
 import { history, URLParam } from '../../app/History';
 import * as API from '../../services/Api';
@@ -28,14 +28,14 @@ import { MetricsSettingsDropdown } from '../MetricsOptions/MetricsSettingsDropdo
 import { MetricsRawAggregation } from '../MetricsOptions/MetricsRawAggregation';
 import { TimeDurationModal } from '../Time/TimeDurationModal';
 import { GrafanaLinks } from './GrafanaLinks';
-import { MetricsObjectTypes } from 'types/Metrics';
+import { MetricsObjectTypes } from '../../types/Metrics';
 import { SpanOverlay, JaegerLineInfo } from './SpanOverlay';
-import { DashboardModel, ExternalLink } from 'types/Dashboards';
-import { Overlay } from 'types/Overlay';
-import { Aggregator, DashboardQuery } from 'types/MetricsOptions';
-import { RawOrBucket } from 'types/VictoryChartInfo';
-import { Dashboard } from 'components/Charts/Dashboard';
-import { KialiDispatch } from 'types/Redux';
+import { DashboardModel, ExternalLink } from '../../types/Dashboards';
+import { Overlay } from '../../types/Overlay';
+import { Aggregator, DashboardQuery } from '../../types/MetricsOptions';
+import { RawOrBucket } from '../../types/VictoryChartInfo';
+import { Dashboard } from '../../components/Charts/Dashboard';
+import { KialiDispatch } from '../../types/Redux';
 import { bindActionCreators } from 'redux';
 import { UserSettingsActions } from '../../actions/UserSettingsActions';
 import { timeRangeSelector } from '../../store/Selectors';

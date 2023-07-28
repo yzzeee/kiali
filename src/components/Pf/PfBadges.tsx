@@ -1,6 +1,6 @@
 import { Badge, Tooltip, TooltipPosition } from '@patternfly/react-core';
 import React, { CSSProperties } from 'react';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../styles/StyleUtils';
 import { PFColors } from './PfColors';
 
 export type PFBadgeType = {

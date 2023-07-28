@@ -1,5 +1,5 @@
 import React from 'react';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../styles/StyleUtils';
 
 const marginStyle = kialiStyle({
   margin: '10px 20px 0 0'

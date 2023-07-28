@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { Button, ButtonVariant, Modal, Split, SplitItem } from '@patternfly/react-core';
-import { kialiStyle } from 'styles/StyleUtils';
-import { AccessLog } from 'types/IstioObjects';
-import { PFColors } from 'components/Pf/PfColors';
+import { kialiStyle } from '../../styles/StyleUtils';
+import { AccessLog } from '../../types/IstioObjects';
+import { PFColors } from '../../components/Pf/PfColors';
 
 export interface AccessLogModalProps {
   accessLog: AccessLog;

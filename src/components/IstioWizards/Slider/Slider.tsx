@@ -2,7 +2,7 @@ import React from 'react';
 import { BootstrapSlider } from './BootstrapSlider';
 import { Button, ButtonVariant, InputGroupText, TextInput, Tooltip, TooltipPosition } from '@patternfly/react-core';
 import { Boundaries } from './Boundaries';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../../styles/StyleUtils';
 import { MinusIcon, PlusIcon, ThumbTackIcon, MigrationIcon } from '@patternfly/react-icons';
 import './styles/default.css';
 

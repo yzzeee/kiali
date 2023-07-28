@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Form, FormGroup, TextInput } from '@patternfly/react-core';
 import { GatewaySelectorState } from './GatewaySelector';
-import { isValid } from 'utils/Common';
+import { isValid } from '../../utils/Common';
 type Props = {
   vsHosts: string[];
   gateway?: GatewaySelectorState;

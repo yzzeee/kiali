@@ -61,11 +61,11 @@ import {
   PeerAuthenticationMutualTLSMode,
   VirtualService
 } from '../../types/IstioObjects';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../styles/StyleUtils';
 import { RequestTimeouts, TimeoutRetryRoute } from './RequestTimeouts';
 import { CircuitBreaker, CircuitBreakerState } from './CircuitBreaker';
 import _ from 'lodash';
-import { ConfigPreviewItem, IstioConfigPreview } from 'components/IstioConfigPreview/IstioConfigPreview';
+import { ConfigPreviewItem, IstioConfigPreview } from '../../components/IstioConfigPreview/IstioConfigPreview';
 import { KialiIcon } from '../../config/KialiIcon';
 
 const emptyServiceWizardState = (fqdnServiceName: string): ServiceWizardState => {

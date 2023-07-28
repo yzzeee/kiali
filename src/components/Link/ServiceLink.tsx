@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Paths } from '../../config';
-import { PFBadge, PFBadges } from 'components/Pf/PfBadges';
+import { PFBadge, PFBadges } from '../../components/Pf/PfBadges';
 import { TooltipPosition } from '@patternfly/react-core';
 import { KioskLink } from './KioskLink';
 import { isMultiCluster } from '../../config';

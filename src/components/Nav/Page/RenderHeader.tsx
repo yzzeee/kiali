@@ -1,5 +1,5 @@
 import React from 'react';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../../styles/StyleUtils';
 import { PFColors } from '../../Pf/PfColors';
 import { BreadcrumbView } from '../../BreadcrumbView/BreadcrumbView';
 import { KialiAppState } from '../../../store/Store';

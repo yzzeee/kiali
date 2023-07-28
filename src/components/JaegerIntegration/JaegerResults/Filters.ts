@@ -1,5 +1,5 @@
-import { FILTER_ACTION_APPEND, FILTER_ACTION_UPDATE, AllFilterTypes, FilterValue, RunnableFilter } from 'types/Filters';
-import { RichSpanData } from 'types/JaegerInfo';
+import { FILTER_ACTION_APPEND, FILTER_ACTION_UPDATE, AllFilterTypes, FilterValue, RunnableFilter } from '../../../types/Filters';
+import { RichSpanData } from '../../../types/JaegerInfo';
 
 const byWorkload = (workloads: FilterValue[]): RunnableFilter<RichSpanData> => {
   return {

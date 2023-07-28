@@ -29,7 +29,7 @@ import { ServiceWizard } from './ServiceWizard';
 import { canCreate, canUpdate, ResourcePermissions } from '../../types/Permissions';
 import { ServiceWizardActionsDropdownGroup, DELETE_TRAFFIC_ROUTING } from './ServiceWizardActionsDropdownGroup';
 import { ConfirmDeleteTrafficRoutingModal } from './ConfirmDeleteTrafficRoutingModal';
-import { deleteServiceTrafficRouting } from 'services/Api';
+import { deleteServiceTrafficRouting } from '../../services/Api';
 import { ServiceOverview } from '../../types/ServiceList';
 import { KialiAppState } from '../../store/Store';
 import { connect } from 'react-redux';

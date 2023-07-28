@@ -1,4 +1,4 @@
-import { TimeInMilliseconds } from 'types/Common';
+import { TimeInMilliseconds } from '../../types/Common';
 
 const defaultOptions = {
   month: 'short',

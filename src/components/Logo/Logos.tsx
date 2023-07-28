@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../styles/StyleUtils';
 
 import GrpcIcon from '../../assets/img/grpc-logo.svg';
 import RestIcon from '../../assets/img/rest-logo.svg';

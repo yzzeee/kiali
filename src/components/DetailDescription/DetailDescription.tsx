@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { AppWorkload } from '../../types/App';
 import { PopoverPosition, Tooltip, TooltipPosition } from '@patternfly/react-core';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../styles/StyleUtils';
 import { Link } from 'react-router-dom';
 import { MissingSidecar } from '../MissingSidecar/MissingSidecar';
 import * as H from '../../types/Health';

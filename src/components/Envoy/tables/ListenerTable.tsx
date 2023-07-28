@@ -7,9 +7,9 @@ import { SortField } from '../../../types/SortFilters';
 import { Namespace } from '../../../types/Namespace';
 import { defaultFilter, routeLink } from '../../../helpers/EnvoyHelpers';
 import { Tooltip } from '@patternfly/react-core';
-import { PFColors } from 'components/Pf/PfColors';
-import { KialiIcon } from 'config/KialiIcon';
-import { kialiStyle } from 'styles/StyleUtils';
+import { PFColors } from '../../../components/Pf/PfColors';
+import { KialiIcon } from '../../../config/KialiIcon';
+import { kialiStyle } from '../../../styles/StyleUtils';
 
 export class ListenerTable implements SummaryTable {
   summaries: ListenerSummary[];

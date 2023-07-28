@@ -1,9 +1,9 @@
 import * as React from 'react';
 import _ from 'lodash';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../styles/StyleUtils';
 import { Responses } from '../../types/Graph';
 import { Tooltip } from '@patternfly/react-core';
-import { summaryTitle } from 'pages/Graph/SummaryPanelCommon';
+import { summaryTitle } from '../../pages/Graph/SummaryPanelCommon';
 
 type ResponseHostsTableProps = {
   responses: Responses;

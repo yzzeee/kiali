@@ -1,7 +1,7 @@
 import React from 'react';
 import { Title, TitleSizes } from '@patternfly/react-core';
 import { NamespaceDropdown } from '../NamespaceDropdown';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../styles/StyleUtils';
 import { KialiIcon } from '../../config/KialiIcon';
 import { KialiAppState } from '../../store/Store';
 import { connect } from 'react-redux';

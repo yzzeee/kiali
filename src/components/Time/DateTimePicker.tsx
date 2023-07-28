@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../styles/StyleUtils';
 import DatePicker from 'react-datepicker';
 
 const pickerStyle = kialiStyle({

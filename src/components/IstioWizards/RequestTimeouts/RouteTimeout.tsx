@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { FormGroup, Switch, TextInput } from '@patternfly/react-core';
 import { HTTP_TIMEOUT_TOOLTIP, wizardTooltip } from '../WizardHelp';
-import { isValid } from 'utils/Common';
+import { isValid } from '../../../utils/Common';
 
 export type RouteTimeoutProps = {
   isTimeout: boolean;

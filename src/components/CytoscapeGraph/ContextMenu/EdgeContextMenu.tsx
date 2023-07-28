@@ -1,9 +1,9 @@
 import * as React from 'react';
-import { kialiStyle } from 'styles/StyleUtils';
-import { prettyProtocol } from 'types/Graph';
+import { kialiStyle } from '../../../styles/StyleUtils';
+import { prettyProtocol } from '../../../types/Graph';
 import { EdgeContextMenuProps } from '../CytoscapeContextMenu';
-import { getTitle } from 'pages/Graph/SummaryPanelCommon';
-import { renderBadgedName } from 'pages/Graph/SummaryLink';
+import { getTitle } from '../../../pages/Graph/SummaryPanelCommon';
+import { renderBadgedName } from '../../../pages/Graph/SummaryLink';
 import { decoratedNodeData } from '../CytoscapeGraphUtils';
 import { EdgeSingular } from 'cytoscape';
 

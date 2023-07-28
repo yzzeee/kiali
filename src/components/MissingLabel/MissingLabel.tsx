@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Tooltip, TooltipPosition } from '@patternfly/react-core';
 import { icons, serverConfig } from '../../config';
 import { KialiIcon } from '../../config/KialiIcon';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../styles/StyleUtils';
 import { PFBadge } from '../Pf/PfBadges';
 
 type MissingLabelProps = {

@@ -1,12 +1,12 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { NotificationList } from './NotificationList';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../styles/StyleUtils';
 import { NotificationMessage, NotificationGroup } from '../../types/MessageCenter';
 import { AlertDrawer } from './AlertDrawer';
-import { KialiAppState } from 'store/Store';
-import { KialiDispatch } from 'types/Redux';
-import { MessageCenterActions } from 'actions/MessageCenterActions';
+import { KialiAppState } from '../../store/Store';
+import { KialiDispatch } from '../../types/Redux';
+import { MessageCenterActions } from '../../actions/MessageCenterActions';
 
 const notificationStyle = kialiStyle({
   position: 'relative',

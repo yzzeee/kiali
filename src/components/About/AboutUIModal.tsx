@@ -12,8 +12,8 @@ import {
 } from '@patternfly/react-core';
 import { ExternalServiceInfo, Status, StatusKey } from '../../types/StatusState';
 import { config, kialiLogo } from '../../config';
-import { kialiStyle } from 'styles/StyleUtils';
-import { KialiIcon } from 'config/KialiIcon';
+import { kialiStyle } from '../../styles/StyleUtils';
+import { KialiIcon } from '../../config/KialiIcon';
 
 type AboutUIModalState = {
   showModal: boolean;

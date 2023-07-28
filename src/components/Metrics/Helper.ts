@@ -2,10 +2,10 @@ import { MetricsSettings, LabelsSettings, Quantiles, LabelSettings } from '../Me
 import { boundsToDuration, guardTimeRange, TimeRange, DurationInSeconds } from '../../types/Common';
 import { computePrometheusRateParams } from '../../services/Prometheus';
 import { history, URLParam } from '../../app/History';
-import { responseFlags } from 'utils/ResponseFlags';
-import { AggregationModel, DashboardModel } from 'types/Dashboards';
-import { AllPromLabelsValues, Metric, PromLabel, SingleLabelValues } from 'types/Metrics';
-import { MetricsQuery } from 'types/MetricsOptions';
+import { responseFlags } from '../../utils/ResponseFlags';
+import { AggregationModel, DashboardModel } from '../../types/Dashboards';
+import { AllPromLabelsValues, Metric, PromLabel, SingleLabelValues } from '../../types/Metrics';
+import { MetricsQuery } from '../../types/MetricsOptions';
 // Default to 10 minutes. Showing timeseries to only 1 minute doesn't make so much sense.
 export const defaultMetricsDuration: DurationInSeconds = 600;
 

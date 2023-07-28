@@ -2,7 +2,7 @@ import * as Cy from 'cytoscape';
 import { Core, EdgeSingular, NodeSingular } from 'cytoscape';
 import * as React from 'react';
 import ReactResizeDetector from 'react-resize-detector';
-import { GraphData } from 'pages/Graph/GraphPage';
+import { GraphData } from '../../pages/Graph/GraphPage';
 import { IntervalInMilliseconds, TimeInMilliseconds } from '../../types/Common';
 import {
   BoxByType,
@@ -22,9 +22,9 @@ import {
   UNKNOWN,
   NodeAttr
 } from '../../types/Graph';
-import { JaegerTrace } from 'types/JaegerInfo';
+import { JaegerTrace } from '../../types/JaegerInfo';
 import { Namespace } from '../../types/Namespace';
-import { addInfo } from 'utils/AlertUtils';
+import { addInfo } from '../../utils/AlertUtils';
 import { angleBetweenVectors, squaredDistance, normalize } from '../../utils/MathUtils';
 import { WizardAction, WizardMode } from '../IstioWizards/WizardActions';
 import {
@@ -40,12 +40,12 @@ import { EmptyGraphLayout } from './EmptyGraphLayout';
 import { FocusAnimation } from './FocusAnimation';
 import { GraphHighlighter } from './graphs/GraphHighlighter';
 import { TrafficRenderer } from './TrafficAnimation/TrafficRenderer';
-import { serverConfig } from 'config';
+import { serverConfig } from '../../config';
 import { decoratedNodeData } from './CytoscapeGraphUtils';
 import { scoreNodes, ScoringCriteria } from './GraphScore';
-import { assignEdgeHealth } from 'types/ErrorRate/GraphEdgeStatus';
-import { PeerAuthentication } from 'types/IstioObjects';
-import { ServiceDetailsInfo } from 'types/ServiceInfo';
+import { assignEdgeHealth } from '../../types/ErrorRate/GraphEdgeStatus';
+import { PeerAuthentication } from '../../types/IstioObjects';
+import { ServiceDetailsInfo } from '../../types/ServiceInfo';
 
 type CytoscapeGraphProps = {
   compressOnHide: boolean;

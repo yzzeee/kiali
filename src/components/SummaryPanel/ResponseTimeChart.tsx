@@ -2,12 +2,12 @@ import * as React from 'react';
 import { InfoAltIcon } from '@patternfly/react-icons';
 import { SUMMARY_PANEL_CHART_WIDTH } from '../../types/Graph';
 import { Datapoint } from '../../types/Metrics';
-import { PFColors } from 'components/Pf/PfColors';
-import { toVCLine } from 'utils/VictoryChartsUtils';
-import { SparklineChart } from 'components/Charts/SparklineChart';
+import { PFColors } from '../../components/Pf/PfColors';
+import { toVCLine } from '../../utils/VictoryChartsUtils';
+import { SparklineChart } from '../../components/Charts/SparklineChart';
 
-import 'components/Charts/Charts.css';
-import { summaryTitle } from 'pages/Graph/SummaryPanelCommon';
+import '../../components/Charts/Charts.css';
+import { summaryTitle } from '../../pages/Graph/SummaryPanelCommon';
 
 export type ResponseTimeUnit = 's' | 'ms';
 type ResponseTimeChartTypeProp = {

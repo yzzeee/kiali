@@ -10,7 +10,7 @@ import {
 } from '@patternfly/react-core';
 import { ServiceOverview } from '../../../types/ServiceList';
 import { getServicePort } from '../../../types/ServiceInfo';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../../styles/StyleUtils';
 
 type Props = {
   filterType: string;

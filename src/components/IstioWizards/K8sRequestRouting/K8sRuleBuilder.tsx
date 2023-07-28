@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Button, Tabs, Tab, ButtonVariant } from '@patternfly/react-core';
 import { K8sMatchBuilder } from './K8sMatchBuilder';
 import { K8sMatches } from './K8sMatches';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../../styles/StyleUtils';
 import { PFColors } from '../../Pf/PfColors';
 import { K8sTrafficShifting, K8sRouteBackendRef } from '../K8sTrafficShifting';
 import { ServiceOverview } from '../../../types/ServiceList';

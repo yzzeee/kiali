@@ -22,18 +22,18 @@ import { OverviewCardSparklineCharts } from '../../pages/Overview/OverviewCardSp
 import { OverviewToolbar } from '../../pages/Overview/OverviewToolbar';
 import { StatefulFilters } from '../Filters/StatefulFilters';
 import { IstioObjectLink, GetIstioObjectUrl, infoStyle } from '../Link/IstioObjectLink';
-import { labelFilter } from 'components/Filters/CommonFilters';
+import { labelFilter } from '../../components/Filters/CommonFilters';
 import { labelFilter as NsLabelFilter } from '../../pages/Overview/Filters';
 import { ValidationSummaryLink } from '../Link/ValidationSummaryLink';
 import { ValidationStatus } from '../../types/IstioObjects';
-import { PFBadgeType, PFBadge, PFBadges } from 'components/Pf/PfBadges';
+import { PFBadgeType, PFBadge, PFBadges } from '../../components/Pf/PfBadges';
 import { MissingLabel } from '../MissingLabel/MissingLabel';
-import { MissingAuthPolicy } from 'components/MissingAuthPolicy/MissingAuthPolicy';
-import { getReconciliationCondition } from 'utils/IstioConfigUtils';
-import { Label } from 'components/Label/Label';
-import { isMultiCluster, serverConfig } from 'config/ServerConfig';
-import { ControlPlaneBadge } from 'pages/Overview/ControlPlaneBadge';
-import { NamespaceStatuses } from 'pages/Overview/NamespaceStatuses';
+import { MissingAuthPolicy } from '../../components/MissingAuthPolicy/MissingAuthPolicy';
+import { getReconciliationCondition } from '../../utils/IstioConfigUtils';
+import { Label } from '../../components/Label/Label';
+import { isMultiCluster, serverConfig } from '../../config/ServerConfig';
+import { ControlPlaneBadge } from '../../pages/Overview/ControlPlaneBadge';
+import { NamespaceStatuses } from '../../pages/Overview/NamespaceStatuses';
 import { isGateway, isWaypoint } from '../../helpers/LabelFilterHelper';
 import { KialiIcon } from '../../config/KialiIcon';
 

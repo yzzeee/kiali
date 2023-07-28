@@ -1,11 +1,11 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
-import { KialiDispatch } from 'types/Redux';
+import { KialiDispatch } from '../../types/Redux';
 import { Card, Button, CardBody, CardFooter, ButtonVariant } from '@patternfly/react-core';
 import { InfoIcon } from '@patternfly/react-icons';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../styles/StyleUtils';
 import { NotificationGroup } from '../../types/MessageCenter';
-import { MessageCenterThunkActions } from 'actions/MessageCenterThunkActions';
+import { MessageCenterThunkActions } from '../../actions/MessageCenterThunkActions';
 import { AlertDrawerMessage } from './AlertDrawerMessage';
 
 type ReduxProps = {

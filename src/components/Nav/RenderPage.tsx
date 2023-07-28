@@ -3,10 +3,10 @@ import { Redirect, Route } from 'react-router-dom';
 import { SwitchErrorBoundary } from '../SwitchErrorBoundary/SwitchErrorBoundary';
 import { pathRoutes, defaultRoute } from '../../routes';
 import { Path } from '../../types/Routes';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../styles/StyleUtils';
 import { PFColors } from '../Pf/PfColors';
 import { Button, ButtonVariant, EmptyState, EmptyStateBody, EmptyStateIcon, Title } from '@patternfly/react-core';
-import { KialiIcon } from 'config/KialiIcon';
+import { KialiIcon } from '../../config/KialiIcon';
 
 const containerStyle = kialiStyle({ marginLeft: 0, marginRight: 0 });
 const containerPadding = kialiStyle({ padding: '0 20px 0 20px' });

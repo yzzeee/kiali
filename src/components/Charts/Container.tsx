@@ -4,8 +4,8 @@ import { DomainTuple } from 'victory-core';
 import { VictoryVoronoiContainerProps } from 'victory-voronoi-container';
 import { VictoryBrushContainerProps } from 'victory-brush-container';
 import { format as d3Format } from 'd3-format';
-import { getFormatter } from 'utils/Formatter';
-import { RichDataPoint } from 'types/VictoryChartInfo';
+import { getFormatter } from '../../utils/Formatter';
+import { RichDataPoint } from '../../types/VictoryChartInfo';
 
 type BrushDomain = { x: DomainTuple; y: DomainTuple };
 

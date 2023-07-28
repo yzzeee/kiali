@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../styles/StyleUtils';
 import { Button, Tooltip } from '@patternfly/react-core';
 import { config } from '../../config';
 import { KialiIcon } from '../../config/KialiIcon';

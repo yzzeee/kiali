@@ -36,7 +36,7 @@
      c. For every child set the relative position to its parent
  */
 
-import { BoxByType, NodeAttr } from 'types/Graph';
+import { BoxByType, NodeAttr } from '../../../types/Graph';
 import { getLayoutByName } from '../graphs/LayoutDictionary';
 
 export const BOX_NODE_CLASS = '__boxNodeClass';

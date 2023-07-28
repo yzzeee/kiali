@@ -1,11 +1,11 @@
 import * as React from 'react';
 import { InfoAltIcon } from '@patternfly/react-icons';
 import _round from 'lodash/round';
-import { HeatMap } from 'components/HeatMap/HeatMap';
-import { MetricsStats } from 'types/Metrics';
-import { PFColors } from 'components/Pf/PfColors';
+import { HeatMap } from '../../../components/HeatMap/HeatMap';
+import { MetricsStats } from '../../../types/Metrics';
+import { PFColors } from '../../../components/Pf/PfColors';
 import { Button, ButtonVariant, Tooltip } from '@patternfly/react-core';
-import { EnvoySpanInfo, RichSpanData } from 'types/JaegerInfo';
+import { EnvoySpanInfo, RichSpanData } from '../../../types/JaegerInfo';
 import {
   compactStatsIntervals,
   statsIntervals,
@@ -17,7 +17,7 @@ import {
   statsPerPeer,
   statsCompareKind,
   compactStatsQuantilesWithAvg
-} from 'utils/tracing/TraceStats';
+} from '../../../utils/tracing/TraceStats';
 
 const statToText = {
   avg: { short: 'avg', long: 'average' },

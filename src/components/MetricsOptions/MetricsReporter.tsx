@@ -5,7 +5,7 @@ import { ToolbarDropdown } from '../ToolbarDropdown/ToolbarDropdown';
 import { Reporter, Direction } from '../../types/MetricsOptions';
 import { Tooltip, TooltipPosition } from '@patternfly/react-core';
 import { KialiIcon } from '../../config/KialiIcon';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../styles/StyleUtils';
 
 interface Props {
   onChanged: (reproter: Reporter) => void;

@@ -1,12 +1,12 @@
 import * as React from 'react';
-import { KialiDispatch } from 'types/Redux';
+import { KialiDispatch } from '../../types/Redux';
 import { connect } from 'react-redux';
 import { Badge, Button, ButtonVariant } from '@patternfly/react-core';
 import { KialiAppState } from '../../store/Store';
 import { MessageType, NotificationGroup, NotificationMessage } from '../../types/MessageCenter';
 import { MessageCenterThunkActions } from '../../actions/MessageCenterThunkActions';
-import { KialiIcon } from 'config/KialiIcon';
-import { kialiStyle } from 'styles/StyleUtils';
+import { KialiIcon } from '../../config/KialiIcon';
+import { kialiStyle } from '../../styles/StyleUtils';
 
 type PropsType = {
   newMessagesCount: number;

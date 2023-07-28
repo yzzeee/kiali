@@ -14,17 +14,17 @@ import {
   Tooltip,
   TooltipPosition
 } from '@patternfly/react-core';
-import { KialiAppState } from 'store/Store';
-import { istioCertsInfoSelector } from 'store/Selectors';
-import { KialiDispatch } from 'types/Redux';
+import { KialiAppState } from '../../store/Store';
+import { istioCertsInfoSelector } from '../../store/Selectors';
+import { KialiDispatch } from '../../types/Redux';
 import { bindActionCreators } from 'redux';
-import { IstioCertsInfoActions } from 'actions/IstioCertsInfoActions';
+import { IstioCertsInfoActions } from '../../actions/IstioCertsInfoActions';
 import { connect } from 'react-redux';
-import { TimeInMilliseconds } from 'types/Common';
-import { CertsInfo } from 'types/CertsInfo';
-import { PFColors } from 'components/Pf/PfColors';
-import { KialiIcon } from 'config/KialiIcon';
-import { infoStyle } from 'styles/DropdownStyles';
+import { TimeInMilliseconds } from '../../types/Common';
+import { CertsInfo } from '../../types/CertsInfo';
+import { PFColors } from '../../components/Pf/PfColors';
+import { KialiIcon } from '../../config/KialiIcon';
+import { infoStyle } from '../../styles/DropdownStyles';
 import { connectRefresh } from '../Refresh/connectRefresh';
 
 type IstioCertsInfoState = {

@@ -1,33 +1,33 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
-import { KialiDispatch } from 'types/Redux';
+import { KialiDispatch } from '../../../types/Redux';
 import _round from 'lodash/round';
 import { Button, ButtonVariant, Card, CardBody, Grid, GridItem, Tooltip } from '@patternfly/react-core';
 import { InfoAltIcon, WarningTriangleIcon } from '@patternfly/react-icons';
-import { JaegerTrace, RichSpanData } from 'types/JaegerInfo';
+import { JaegerTrace, RichSpanData } from '../../../types/JaegerInfo';
 import { JaegerTraceTitle } from './JaegerTraceTitle';
-import { GraphType, NodeType } from 'types/Graph';
+import { GraphType, NodeType } from '../../../types/Graph';
 import { FormattedTraceInfo, shortIDStyle } from './FormattedTraceInfo';
-import { PFColors } from 'components/Pf/PfColors';
-import { KialiAppState } from 'store/Store';
-import { JaegerThunkActions } from 'actions/JaegerThunkActions';
-import { getTraceId } from 'utils/SearchParamUtils';
-import { average } from 'utils/MathUtils';
+import { PFColors } from '../../../components/Pf/PfColors';
+import { KialiAppState } from '../../../store/Store';
+import { JaegerThunkActions } from '../../../actions/JaegerThunkActions';
+import { getTraceId } from '../../../utils/SearchParamUtils';
+import { average } from '../../../utils/MathUtils';
 import {
   averageSpanDuration,
   buildQueriesFromSpans,
   isSimilarTrace,
   reduceMetricsStats,
   StatsMatrix
-} from 'utils/tracing/TraceStats';
+} from '../../../utils/tracing/TraceStats';
 import { TraceLabels } from './TraceLabels';
-import { TargetKind } from 'types/Common';
-import { MetricsStatsQuery } from 'types/MetricsOptions';
-import { MetricsStatsThunkActions } from 'actions/MetricsStatsThunkActions';
+import { TargetKind } from '../../../types/Common';
+import { MetricsStatsQuery } from '../../../types/MetricsOptions';
+import { MetricsStatsThunkActions } from '../../../actions/MetricsStatsThunkActions';
 import { renderTraceHeatMap } from './StatsComparison';
-import { HeatMap } from 'components/HeatMap/HeatMap';
-import { formatDuration, sameSpans } from 'utils/tracing/TracingHelper';
-import { GraphSelectorBuilder } from 'pages/Graph/GraphSelector';
+import { HeatMap } from '../../../components/HeatMap/HeatMap';
+import { formatDuration, sameSpans } from '../../../utils/tracing/TracingHelper';
+import { GraphSelectorBuilder } from '../../../pages/Graph/GraphSelector';
 
 type ReduxProps = {
   loadMetricsStats: (queries: MetricsStatsQuery[], isCompact: boolean, cluster?: string) => void;

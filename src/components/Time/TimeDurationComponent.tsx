@@ -1,14 +1,14 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { DurationDropdown } from '../DurationDropdown/DurationDropdown';
-import { Refresh } from 'components/Refresh/Refresh';
-import { KialiAppState } from 'store/Store';
-import { durationSelector, replayActiveSelector } from 'store/Selectors';
-import { DurationInSeconds } from 'types/Common';
+import { Refresh } from '../../components/Refresh/Refresh';
+import { KialiAppState } from '../../store/Store';
+import { durationSelector, replayActiveSelector } from '../../store/Selectors';
+import { DurationInSeconds } from '../../types/Common';
 import { Tooltip, TooltipPosition, Button, ButtonVariant } from '@patternfly/react-core';
-import { KialiIcon, defaultIconStyle } from 'config/KialiIcon';
-import { UserSettingsActions } from 'actions/UserSettingsActions';
-import { KialiDispatch } from 'types/Redux';
+import { KialiIcon, defaultIconStyle } from '../../config/KialiIcon';
+import { UserSettingsActions } from '../../actions/UserSettingsActions';
+import { KialiDispatch } from '../../types/Redux';
 import { bindActionCreators } from 'redux';
 
 type ReduxProps = {

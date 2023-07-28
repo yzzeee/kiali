@@ -10,7 +10,7 @@ import { KialiGridLayout } from './Layout/KialiGridLayout';
 import { KialiDagreLayout } from './Layout/KialiDagreLayout';
 import { KialiConcentricLayout } from './Layout/KialiConcentricLayout';
 import { KialiBreadFirstLayout } from './Layout/KialiBreadthFirstLayout';
-import { setPFColorVals } from 'components/Pf/PfColors';
+import { setPFColorVals } from '../../components/Pf/PfColors';
 const nodeHtmlLabel = require('cy-node-html-label');
 
 cytoscape.use(canvas);

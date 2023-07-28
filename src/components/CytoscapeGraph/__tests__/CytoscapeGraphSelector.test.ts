@@ -1,4 +1,4 @@
-import { GraphSelectorBuilder } from 'pages/Graph/GraphSelector';
+import { GraphSelectorBuilder } from '../../../pages/Graph/GraphSelector';
 import { NodeType, BoxByType } from '../../../types/Graph';
 
 describe('GraphSelector test', () => {

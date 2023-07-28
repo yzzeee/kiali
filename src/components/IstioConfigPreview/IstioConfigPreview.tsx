@@ -19,9 +19,9 @@ import {
   PeerAuthentication,
   Sidecar,
   VirtualService
-} from 'types/IstioObjects';
+} from '../../types/IstioObjects';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../styles/StyleUtils';
 import { KialiIcon, defaultIconStyle } from '../../config/KialiIcon';
 import { safeDumpOptions } from '../../types/IstioConfigDetails';
 import { jsYaml } from '../../types/AceValidations';

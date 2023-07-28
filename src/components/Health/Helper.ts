@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Status } from 'types/Health';
+import { Status } from '../../types/Health';
 
 type Size = 'sm' | 'md' | 'lg' | 'xl';
 

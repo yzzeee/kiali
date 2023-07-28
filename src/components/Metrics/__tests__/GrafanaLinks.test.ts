@@ -1,5 +1,5 @@
 import { GrafanaLinks } from '../GrafanaLinks';
-import { MetricsObjectTypes } from 'types/Metrics';
+import { MetricsObjectTypes } from '../../../types/Metrics';
 
 describe('Grafana links', () => {
   it('build service links', () => {

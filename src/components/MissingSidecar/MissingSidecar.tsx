@@ -1,10 +1,10 @@
 import * as React from 'react';
 import { Tooltip, TooltipPosition } from '@patternfly/react-core';
 import { SVGIconProps } from '@patternfly/react-icons/dist/js/createIcon';
-import { isIstioNamespace, serverConfig } from 'config/ServerConfig';
-import { icons } from 'config';
+import { isIstioNamespace, serverConfig } from '../../config/ServerConfig';
+import { icons } from '../../config';
 import { KialiIcon } from '../../config/KialiIcon';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../styles/StyleUtils';
 
 type MissingSidecarProps = {
   'data-test'?: string;
