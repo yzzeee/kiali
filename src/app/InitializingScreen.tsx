@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Alert, Button, ButtonVariant } from '@patternfly/react-core';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../styles/StyleUtils';
 import { isKioskMode } from '../utils/SearchParamUtils';
 
 import kialiTitle from '../assets/img/logo-lightbkg.svg';
