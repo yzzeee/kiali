@@ -1,5 +1,5 @@
-import { PFColors } from 'components/Pf/PfColors';
-import { kialiStyle } from 'styles/StyleUtils';
+import { PFColors } from '../components/Pf/PfColors';
+import { kialiStyle } from '../styles/StyleUtils';
 import { NestedCSSProperties } from 'typestyle/lib/types';
 
 export const containerStyle = kialiStyle({
