@@ -2,9 +2,9 @@ import { KialiAppState } from '../store/Store';
 import * as API from '../services/Api';
 import { KialiDispatch } from '../types/Redux';
 import { MetricsStatsActions } from './MetricsStatsActions';
-import { MetricsStatsQuery, statsQueryToKey } from 'types/MetricsOptions';
-import { addError, addInfo } from 'utils/AlertUtils';
-import { MetricsStats } from 'types/Metrics';
+import { MetricsStatsQuery, statsQueryToKey } from '../types/MetricsOptions';
+import { addError, addInfo } from '../utils/AlertUtils';
+import { MetricsStats } from '../types/Metrics';
 
 type ExpiringStats = MetricsStats & { timestamp: number };
 

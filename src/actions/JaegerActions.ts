@@ -1,6 +1,6 @@
 import { ActionType, createAction, createStandardAction } from 'typesafe-actions';
 import { ActionKeys } from './ActionKeys';
-import { JaegerInfo, JaegerTrace } from 'types/JaegerInfo';
+import { JaegerInfo, JaegerTrace } from '../types/JaegerInfo';
 
 // synchronous action creators
 export const JaegerActions = {

@@ -1,4 +1,4 @@
-import { CertsInfo } from 'types/CertsInfo';
+import { CertsInfo } from '../types/CertsInfo';
 import { ActionType, createStandardAction } from 'typesafe-actions';
 import { ActionKeys } from './ActionKeys';
 
