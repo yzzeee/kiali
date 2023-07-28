@@ -1,8 +1,8 @@
 import { updateState } from '../utils/Reducer';
 import { KialiAppAction } from '../actions/KialiAppAction';
 import { getType } from 'typesafe-actions';
-import { MetricsStats } from 'types/Metrics';
-import { MetricsStatsActions } from 'actions/MetricsStatsActions';
+import { MetricsStats } from '../types/Metrics';
+import { MetricsStatsActions } from '../actions/MetricsStatsActions';
 
 export type MetricsStatsState = {
   data: Map<string, MetricsStats>;

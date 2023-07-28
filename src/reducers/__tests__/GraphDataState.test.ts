@@ -2,7 +2,7 @@ import { GraphDataStateReducer } from '../GraphDataState';
 import { GraphActions } from '../../actions/GraphActions';
 import { GlobalActions } from '../../actions/GlobalActions';
 import { DefaultTrafficRates, EdgeMode, GraphType } from '../../types/Graph';
-import { GraphState } from 'store/Store';
+import { GraphState } from '../../store/Store';
 import { KialiDagreGraph } from '../../components/CytoscapeGraph/graphs/KialiDagreGraph';
 
 describe('GraphDataState', () => {
