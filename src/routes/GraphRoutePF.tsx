@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { useParams } from 'react-router';
-import { GraphPagePF, GraphURLPathProps } from 'pages/GraphPF/GraphPagePF';
+import { GraphPagePF, GraphURLPathProps } from '../pages/GraphPF/GraphPagePF';
 
 export const GraphRoutePF = () => {
   const { aggregate, aggregateValue, app, namespace, service, version, workload } = useParams<GraphURLPathProps>();

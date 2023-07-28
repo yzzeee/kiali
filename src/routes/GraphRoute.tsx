@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { useParams } from 'react-router';
-import { GraphPage, GraphURLPathProps } from 'pages/Graph/GraphPage';
+import { GraphPage, GraphURLPathProps } from '../pages/Graph/GraphPage';
 
 /**
  * Graph wrapper to add routing parameters to GraphPage
