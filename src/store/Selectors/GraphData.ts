@@ -13,8 +13,8 @@ import {
   hasProtocolTraffic
 } from '../../types/Graph';
 import { isIstioNamespace } from '../../config/ServerConfig';
-import { toSafeCyFieldName } from 'components/CytoscapeGraph/CytoscapeGraphUtils';
-import { AppHealth, NA, ServiceHealth, WorkloadHealth } from 'types/Health';
+import { toSafeCyFieldName } from '../../components/CytoscapeGraph/CytoscapeGraphUtils';
+import { AppHealth, NA, ServiceHealth, WorkloadHealth } from '../../types/Health';
 
 // When updating the cytoscape graph, the element data expects to have all the changes
 // non-provided values are taken as "this didn't change", similar as setState does.

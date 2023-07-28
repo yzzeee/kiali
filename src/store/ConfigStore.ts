@@ -21,8 +21,8 @@ import { INITIAL_MESH_TLS_STATE } from '../reducers/MeshTlsState';
 import { INITIAL_TOUR_STATE } from '../reducers/TourState';
 import { INITIAL_ISTIO_STATUS_STATE } from '../reducers/IstioStatusState';
 import { INITIAL_METRICS_STATS_STATE } from '../reducers/MetricsStatsState';
-import { INITIAL_ISTIO_CERTS_INFO_STATE } from 'reducers/IstioCertsInfoState';
-import { KialiAppAction } from 'actions/KialiAppAction';
+import { INITIAL_ISTIO_CERTS_INFO_STATE } from '../reducers/IstioCertsInfoState';
+import { KialiAppAction } from '../actions/KialiAppAction';
 
 declare const window;
 
