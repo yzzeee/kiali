@@ -5,16 +5,16 @@ import { ServiceListPage } from './pages/ServiceList/ServiceListPage';
 import { IstioConfigListPage } from './pages/IstioConfigList/IstioConfigListPage';
 import { AppListPage } from './pages/AppList/AppListPage';
 import { OverviewPage } from './pages/Overview/OverviewPage';
-import { GraphPage } from 'pages/Graph/GraphPage';
-import { MeshPage } from 'pages/Mesh/MeshPage';
-import { GraphRoute } from 'routes/GraphRoute';
-import { ServiceDetailsRoute } from 'routes/ServiceDetailsRoute';
-import { WorkloadDetailsRoute } from 'routes/WorkloadDetailsRoute';
-import { AppDetailsRoute } from 'routes/AppDetailsRoute';
-import { IstioConfigDetailsRoute } from 'routes/IstioConfigDetailsRoute';
-import { IstioConfigNewRoute } from 'routes/IstioConfigNewRoute';
-import { GraphRoutePF } from 'routes/GraphRoutePF';
-import { GraphPagePF } from 'pages/GraphPF/GraphPagePF';
+import { GraphPage } from './pages/Graph/GraphPage';
+import { MeshPage } from './pages/Mesh/MeshPage';
+import { GraphRoute } from './routes/GraphRoute';
+import { ServiceDetailsRoute } from './routes/ServiceDetailsRoute';
+import { WorkloadDetailsRoute } from './routes/WorkloadDetailsRoute';
+import { AppDetailsRoute } from './routes/AppDetailsRoute';
+import { IstioConfigDetailsRoute } from './routes/IstioConfigDetailsRoute';
+import { IstioConfigNewRoute } from './routes/IstioConfigNewRoute';
+import { GraphRoutePF } from './routes/GraphRoutePF';
+import { GraphPagePF } from './pages/GraphPF/GraphPagePF';
 
 /**
  * Return array of objects that describe vertical menu
