@@ -4,10 +4,10 @@ import { cellWidth, ICell, Table, TableBody, TableHeader } from '@patternfly/rea
 import { Button, ButtonVariant, TextInputBase as TextInput } from '@patternfly/react-core';
 import { PlusCircleIcon } from '@patternfly/react-icons';
 import { isValidRequestHeaderName, isValidRequestAuthClaimName } from '../../../../helpers/ValidationHelpers';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../../../styles/StyleUtils';
 import { PFColors } from '../../../../components/Pf/PfColors';
 import { isValidIp } from '../../../../utils/IstioConfigUtils';
-import { isValid } from 'utils/Common';
+import { isValid } from '../../../../utils/Common';
 
 export type Condition = {
   key: string;

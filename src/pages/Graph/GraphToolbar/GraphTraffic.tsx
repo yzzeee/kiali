@@ -1,18 +1,18 @@
 import { Radio, Dropdown, DropdownToggle, Checkbox, Tooltip, TooltipPosition } from '@patternfly/react-core';
 import * as React from 'react';
 import { connect } from 'react-redux';
-import { KialiDispatch } from 'types/Redux';
+import { KialiDispatch } from '../../../types/Redux';
 import { bindActionCreators } from 'redux';
 import { KialiAppState } from '../../../store/Store';
 import { GraphToolbarActions } from '../../../actions/GraphToolbarActions';
 import { TrafficRate, isGrpcRate, isHttpRate, isTcpRate } from '../../../types/Graph';
 import * as _ from 'lodash';
-import { trafficRatesSelector } from 'store/Selectors';
+import { trafficRatesSelector } from '../../../store/Selectors';
 import {
   BoundingClientAwareComponent,
   PropertyType
-} from 'components/BoundingClientAwareComponent/BoundingClientAwareComponent';
-import { KialiIcon } from 'config/KialiIcon';
+} from '../../../components/BoundingClientAwareComponent/BoundingClientAwareComponent';
+import { KialiIcon } from '../../../config/KialiIcon';
 import {
   containerStyle,
   infoStyle,
@@ -20,7 +20,7 @@ import {
   itemStyleWithoutInfo,
   menuStyle,
   menuEntryStyle
-} from 'styles/DropdownStyles';
+} from '../../../styles/DropdownStyles';
 
 type ReduxProps = {
   trafficRates: TrafficRate[];

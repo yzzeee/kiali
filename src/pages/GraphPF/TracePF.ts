@@ -1,12 +1,12 @@
 import { Controller, Edge, Node } from '@patternfly/react-topology';
-import { JaegerTrace, Span } from 'types/JaegerInfo';
-import { NodeType, GraphType, SEInfo, NodeAttr } from 'types/Graph';
+import { JaegerTrace, Span } from '../../types/JaegerInfo';
+import { NodeType, GraphType, SEInfo, NodeAttr } from '../../types/Graph';
 import {
   getAppFromSpan,
   getWorkloadFromSpan,
   searchParentApp,
   searchParentWorkload
-} from 'utils/tracing/TracingHelper';
+} from '../../utils/tracing/TracingHelper';
 import { edgesOut, elems, select, SelectAnd, selectAnd } from './GraphPFElems';
 
 export const showTrace = (controller: Controller, graphType: GraphType, trace: JaegerTrace) => {

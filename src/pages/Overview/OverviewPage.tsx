@@ -16,7 +16,7 @@ import {
   Tooltip,
   TooltipPosition
 } from '@patternfly/react-core';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../styles/StyleUtils';
 import { AxiosError } from 'axios';
 import { FilterSelected, StatefulFilters } from '../../components/Filters/StatefulFilters';
 import * as FilterHelper from '../../components/FilterList/FilterHelper';
@@ -55,7 +55,7 @@ import { switchType } from './OverviewHelper';
 import * as Sorts from './Sorts';
 import * as Filters from './Filters';
 import { ValidationSummary } from '../../components/Validations/ValidationSummary';
-import { DurationInSeconds, IntervalInMilliseconds } from 'types/Common';
+import { DurationInSeconds, IntervalInMilliseconds } from '../../types/Common';
 import { Paths, isMultiCluster, serverConfig } from '../../config';
 import { PFColors } from '../../components/Pf/PfColors';
 import { VirtualList } from '../../components/VirtualList/VirtualList';
@@ -72,12 +72,12 @@ import _ from 'lodash';
 import { ControlPlaneBadge } from './ControlPlaneBadge';
 import { OverviewStatus } from './OverviewStatus';
 import { ControlPlaneNamespaceStatus } from './ControlPlaneNamespaceStatus';
-import { IstiodResourceThresholds } from 'types/IstioStatus';
-import { TLSInfo } from 'components/Overview/TLSInfo';
+import { IstiodResourceThresholds } from '../../types/IstioStatus';
+import { TLSInfo } from '../../components/Overview/TLSInfo';
 import { CanaryUpgradeProgress } from './CanaryUpgradeProgress';
 import { ControlPlaneVersionBadge } from './ControlPlaneVersionBadge';
 import { AmbientBadge } from '../../components/Ambient/AmbientBadge';
-import { PFBadge, PFBadges } from 'components/Pf/PfBadges';
+import { PFBadge, PFBadges } from '../../components/Pf/PfBadges';
 
 const gridStyleCompact = kialiStyle({
   backgroundColor: '#f5f5f5',

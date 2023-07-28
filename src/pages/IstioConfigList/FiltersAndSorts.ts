@@ -1,7 +1,7 @@
 import { SortField } from '../../types/SortFilters';
 import { IstioConfigItem } from '../../types/IstioConfigList';
 import { FILTER_ACTION_APPEND, FilterType, AllFilterTypes, ToggleType } from '../../types/Filters';
-import { serverConfig } from 'config';
+import { serverConfig } from '../../config';
 
 export const sortFields: SortField<IstioConfigItem>[] = [
   {

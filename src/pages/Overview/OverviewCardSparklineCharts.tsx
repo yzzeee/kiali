@@ -5,9 +5,9 @@ import { ControlPlaneMetricsMap, Metric } from '../../types/Metrics';
 import { DurationInSeconds } from '../../types/Common';
 import { OverviewCardDataPlaneNamespace } from './OverviewCardDataPlaneNamespace';
 import { OverviewCardControlPlaneNamespace } from './OverviewCardControlPlaneNamespace';
-import { IstiodResourceThresholds } from 'types/IstioStatus';
+import { IstiodResourceThresholds } from '../../types/IstioStatus';
 import { connect } from 'react-redux';
-import { KialiAppState } from 'store/Store';
+import { KialiAppState } from '../../store/Store';
 
 type ReduxProps = {
   istioAPIEnabled: boolean;

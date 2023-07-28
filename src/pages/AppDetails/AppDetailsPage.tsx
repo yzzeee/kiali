@@ -15,14 +15,14 @@ import { durationSelector, timeRangeSelector } from '../../store/Selectors';
 import { ParameterizedTabs, activeTab } from '../../components/Tab/Tabs';
 import { JaegerInfo } from '../../types/JaegerInfo';
 import { TracesComponent } from '../../components/JaegerIntegration/TracesComponent';
-import { TrafficDetails } from 'components/TrafficList/TrafficDetails';
+import { TrafficDetails } from '../../components/TrafficList/TrafficDetails';
 import { TimeControl } from '../../components/Time/TimeControl';
-import { AppHealth } from 'types/Health';
+import { AppHealth } from '../../types/Health';
 import { RenderHeader } from '../../components/Nav/Page/RenderHeader';
 import { ErrorMsg } from '../../types/ErrorMsg';
 import { ErrorSection } from '../../components/ErrorSection/ErrorSection';
 import { connectRefresh } from '../../components/Refresh/connectRefresh';
-import { history } from 'app/History';
+import { history } from '../../app/History';
 
 type AppDetailsState = {
   app?: App;

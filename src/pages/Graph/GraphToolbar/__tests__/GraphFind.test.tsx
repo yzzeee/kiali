@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { shallow } from 'enzyme';
 import { GraphFindComponent } from '../GraphFind';
-import { EdgeMode } from 'types/Graph';
+import { EdgeMode } from '../../../../types/Graph';
 
 const testHandler = () => undefined;
 const testSetter = _val => undefined;

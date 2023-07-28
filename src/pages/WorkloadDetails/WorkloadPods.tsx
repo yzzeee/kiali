@@ -14,7 +14,7 @@ import {
   TooltipPosition
 } from '@patternfly/react-core';
 import { PodStatus } from './PodStatus';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../styles/StyleUtils';
 import { KialiIcon } from '../../config/KialiIcon';
 import { LocalTime } from '../../components/Time/LocalTime';
 import { Labels } from '../../components/Label/Labels';

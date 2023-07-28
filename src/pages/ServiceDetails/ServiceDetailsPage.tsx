@@ -9,9 +9,9 @@ import { KialiAppState } from '../../store/Store';
 import { DurationInSeconds, TimeInMilliseconds } from '../../types/Common';
 import { ParameterizedTabs, activeTab } from '../../components/Tab/Tabs';
 import { ServiceInfo } from './ServiceInfo';
-import { TracesComponent } from 'components/JaegerIntegration/TracesComponent';
-import { JaegerInfo } from 'types/JaegerInfo';
-import { TrafficDetails } from 'components/TrafficList/TrafficDetails';
+import { TracesComponent } from '../../components/JaegerIntegration/TracesComponent';
+import { JaegerInfo } from '../../types/JaegerInfo';
+import { TrafficDetails } from '../../components/TrafficList/TrafficDetails';
 import * as API from '../../services/Api';
 import * as AlertUtils from '../../utils/AlertUtils';
 import { PromisesRegistry } from '../../utils/CancelablePromises';
@@ -30,8 +30,8 @@ import { RenderHeader } from '../../components/Nav/Page/RenderHeader';
 import { ErrorMsg } from '../../types/ErrorMsg';
 import { ErrorSection } from '../../components/ErrorSection/ErrorSection';
 import { connectRefresh } from '../../components/Refresh/connectRefresh';
-import { history } from 'app/History';
-import { durationSelector } from 'store/Selectors';
+import { history } from '../../app/History';
+import { durationSelector } from '../../store/Selectors';
 
 type ServiceDetailsState = {
   cluster?: string;

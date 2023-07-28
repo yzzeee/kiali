@@ -4,7 +4,7 @@ import { Card, CardBody, CardHeader, Title, TitleSizes, TooltipPosition } from '
 import { DetailDescription } from '../../components/DetailDescription/DetailDescription';
 import { isMultiCluster, serverConfig } from '../../config';
 import { Labels } from '../../components/Label/Labels';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../styles/StyleUtils';
 import * as H from '../../types/Health';
 import { HealthIndicator } from '../../components/Health/HealthIndicator';
 import { PFBadge, PFBadges } from '../../components/Pf/PfBadges';

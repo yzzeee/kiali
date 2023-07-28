@@ -1,20 +1,20 @@
 import * as React from 'react';
 import { Button, ButtonVariant, Modal, ModalVariant } from '@patternfly/react-core';
 import { NamespaceInfo } from './NamespaceInfo';
-import { AuthorizationPolicy, Sidecar } from 'types/IstioObjects';
-import { MessageType } from 'types/MessageCenter';
-import { PromisesRegistry } from 'utils/CancelablePromises';
-import { DurationInSeconds } from 'types/Common';
-import { ConfigPreviewItem, IstioConfigPreview } from 'components/IstioConfigPreview/IstioConfigPreview';
-import * as AlertUtils from 'utils/AlertUtils';
-import * as API from 'services/Api';
+import { AuthorizationPolicy, Sidecar } from '../../types/IstioObjects';
+import { MessageType } from '../../types/MessageCenter';
+import { PromisesRegistry } from '../../utils/CancelablePromises';
+import { DurationInSeconds } from '../../types/Common';
+import { ConfigPreviewItem, IstioConfigPreview } from '../../components/IstioConfigPreview/IstioConfigPreview';
+import * as AlertUtils from '../../utils/AlertUtils';
+import * as API from '../../services/Api';
 import { serverConfig } from '../../config';
-import { GraphDataSource } from 'services/GraphDataSource';
+import { GraphDataSource } from '../../services/GraphDataSource';
 import {
   buildGraphAuthorizationPolicy,
   buildNamespaceInjectionPatch,
   buildGraphSidecars
-} from 'components/IstioWizards/WizardActions';
+} from '../../components/IstioWizards/WizardActions';
 import { AUTHORIZATION_POLICIES } from '../IstioConfigNew/AuthorizationPolicyForm';
 
 type OverviewTrafficPoliciesProps = {

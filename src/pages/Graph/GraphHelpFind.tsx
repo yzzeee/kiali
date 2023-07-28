@@ -2,8 +2,8 @@ import * as React from 'react';
 import ReactResizeDetector from 'react-resize-detector';
 import { Tab, Popover, PopoverPosition } from '@patternfly/react-core';
 import { ICell, Table, TableBody, TableHeader, TableVariant, cellWidth } from '@patternfly/react-table';
-import { kialiStyle } from 'styles/StyleUtils';
-import { SimpleTabs } from 'components/Tab/SimpleTabs';
+import { kialiStyle } from '../../styles/StyleUtils';
+import { SimpleTabs } from '../../components/Tab/SimpleTabs';
 
 export interface GraphHelpFindProps {
   onClose: () => void;

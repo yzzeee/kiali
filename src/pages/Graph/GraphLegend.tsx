@@ -1,9 +1,9 @@
 import * as React from 'react';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../styles/StyleUtils';
 import { legendData, GraphLegendItem, GraphLegendItemRow } from './GraphLegendData';
 import { Button, ButtonVariant, Tooltip } from '@patternfly/react-core';
 import CloseIcon from '@patternfly/react-icons/dist/js/icons/close-icon';
-import { PFColors } from 'components/Pf/PfColors';
+import { PFColors } from '../../components/Pf/PfColors';
 import { summaryFont, summaryTitle } from './SummaryPanelCommon';
 
 export interface GraphLegendProps {

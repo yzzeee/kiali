@@ -6,7 +6,7 @@ import { OperationBuilder } from './To/OperationBuilder';
 import { OperationList } from './To/OperationList';
 import { ConditionBuilder, Condition } from './When/ConditionBuilder';
 import { ConditionList } from './When/ConditionList';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../../styles/StyleUtils';
 import { PlusCircleIcon } from '@patternfly/react-icons';
 import { PFColors } from '../../../components/Pf/PfColors';
 

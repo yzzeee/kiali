@@ -4,7 +4,7 @@ import { TextInputBase as TextInput } from '@patternfly/react-core/dist/js/compo
 import { Td, Tr } from '@patternfly/react-table';
 import { TrashIcon } from '@patternfly/react-icons';
 import { Address } from '../../../types/IstioObjects';
-import { isValid } from 'utils/Common';
+import { isValid } from '../../../utils/Common';
 import { isGatewayHostValid, isValidIp } from '../../../utils/IstioConfigUtils';
 
 type Props = {

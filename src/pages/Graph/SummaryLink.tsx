@@ -1,12 +1,12 @@
 import * as React from 'react';
 import { NodeType, GraphNodeData, DestService, BoxByType, CLUSTER_DEFAULT, DecoratedGraphNodeData } from '../../types/Graph';
-import { KialiIcon } from 'config/KialiIcon';
+import { KialiIcon } from '../../config/KialiIcon';
 import { Badge, PopoverPosition } from '@patternfly/react-core';
-import { Health } from 'types/Health';
-import { HealthIndicator } from 'components/Health/HealthIndicator';
-import { PFBadge, PFBadges } from 'components/Pf/PfBadges';
-import { serverConfig } from 'config';
-import { KialiPageLink } from 'components/Link/KialiPageLink';
+import { Health } from '../../types/Health';
+import { HealthIndicator } from '../../components/Health/HealthIndicator';
+import { PFBadge, PFBadges } from '../../components/Pf/PfBadges';
+import { serverConfig } from '../../config';
+import { KialiPageLink } from '../../components/Link/KialiPageLink';
 
 interface LinkInfo {
   link: string;

@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Address } from '../../../types/IstioObjects';
 import { cellWidth, TableComposable, Tbody, Td, Th, Thead, Tr } from '@patternfly/react-table';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../../styles/StyleUtils';
 import { Button, ButtonVariant } from '@patternfly/react-core';
 import { PlusCircleIcon } from '@patternfly/react-icons';
 import { AddressBuilder } from './AddressBuilder';

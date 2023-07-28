@@ -7,12 +7,12 @@ import { GraphToolbarState, KialiAppState } from '../../../store/Store';
 import { GraphToolbarActions } from '../../../actions/GraphToolbarActions';
 import { GraphType, EdgeLabelMode, isResponseTimeMode, isThroughputMode, RankMode } from '../../../types/Graph';
 import * as _ from 'lodash';
-import { edgeLabelsSelector } from 'store/Selectors';
+import { edgeLabelsSelector } from '../../../store/Selectors';
 import {
   BoundingClientAwareComponent,
   PropertyType
-} from 'components/BoundingClientAwareComponent/BoundingClientAwareComponent';
-import { KialiIcon } from 'config/KialiIcon';
+} from '../../../components/BoundingClientAwareComponent/BoundingClientAwareComponent';
+import { KialiIcon } from '../../../config/KialiIcon';
 import {
   containerStyle,
   infoStyle,
@@ -21,11 +21,11 @@ import {
   menuStyle,
   menuEntryStyle,
   titleStyle
-} from 'styles/DropdownStyles';
-import { INITIAL_GRAPH_STATE } from 'reducers/GraphDataState';
-import { KialiDispatch } from 'types/Redux';
-import { KialiCrippledFeatures } from 'types/ServerConfig';
-import { getCrippledFeatures } from 'services/Api';
+} from '../../../styles/DropdownStyles';
+import { INITIAL_GRAPH_STATE } from '../../../reducers/GraphDataState';
+import { KialiDispatch } from '../../../types/Redux';
+import { KialiCrippledFeatures } from '../../../types/ServerConfig';
+import { getCrippledFeatures } from '../../../services/Api';
 
 type ReduxProps = {
   boxByCluster: boolean;

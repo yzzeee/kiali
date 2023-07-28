@@ -3,10 +3,10 @@ import { Button, ButtonVariant, FormGroup, FormSelect, FormSelectOption, Switch 
 import { TextInputBase as TextInput } from '@patternfly/react-core/dist/js/components/TextInput/TextInput';
 import { PeerAuthenticationMutualTLSMode } from '../../types/IstioObjects';
 import { cellWidth, ICell, Table, TableBody, TableHeader } from '@patternfly/react-table';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../styles/StyleUtils';
 import { PFColors } from '../../components/Pf/PfColors';
 import { PlusCircleIcon } from '@patternfly/react-icons';
-import { isValid } from 'utils/Common';
+import { isValid } from '../../utils/Common';
 
 const noPortMtlsStyle = kialiStyle({
   marginTop: 15,

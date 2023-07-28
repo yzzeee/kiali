@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { isProxyStatusComponentSynced, isProxyStatusSynced, ProxyStatus } from '../../types/Health';
 import { Stack, StackItem } from '@patternfly/react-core';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../styles/StyleUtils';
 import { PFColors } from '../../components/Pf/PfColors';
 
 type Props = {

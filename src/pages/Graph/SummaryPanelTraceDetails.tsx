@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../styles/StyleUtils';
 import { Tooltip, Button, ButtonVariant, pluralize, SelectOption } from '@patternfly/react-core';
 import {
   InfoAltIcon,
@@ -11,25 +11,25 @@ import {
   MapMarkerIcon
 } from '@patternfly/react-icons';
 import { URLParam } from '../../app/History';
-import { JaegerTrace, RichSpanData, EnvoySpanInfo, OpenTracingHTTPInfo, OpenTracingTCPInfo } from 'types/JaegerInfo';
-import { KialiAppState } from 'store/Store';
-import { JaegerThunkActions } from 'actions/JaegerThunkActions';
-import { GraphActions } from 'actions/GraphActions';
-import { PFColors } from 'components/Pf/PfColors';
-import { findChildren, findParent, formatDuration } from 'utils/tracing/TracingHelper';
-import { decoratedNodeData } from 'components/CytoscapeGraph/CytoscapeGraphUtils';
-import { FocusAnimation } from 'components/CytoscapeGraph/FocusAnimation';
-import { FormattedTraceInfo, shortIDStyle } from 'components/JaegerIntegration/JaegerResults/FormattedTraceInfo';
-import { SimplerSelect } from 'components/SimplerSelect';
+import { JaegerTrace, RichSpanData, EnvoySpanInfo, OpenTracingHTTPInfo, OpenTracingTCPInfo } from '../../types/JaegerInfo';
+import { KialiAppState } from '../../store/Store';
+import { JaegerThunkActions } from '../../actions/JaegerThunkActions';
+import { GraphActions } from '../../actions/GraphActions';
+import { PFColors } from '../../components/Pf/PfColors';
+import { findChildren, findParent, formatDuration } from '../../utils/tracing/TracingHelper';
+import { decoratedNodeData } from '../../components/CytoscapeGraph/CytoscapeGraphUtils';
+import { FocusAnimation } from '../../components/CytoscapeGraph/FocusAnimation';
+import { FormattedTraceInfo, shortIDStyle } from '../../components/JaegerIntegration/JaegerResults/FormattedTraceInfo';
+import { SimplerSelect } from '../../components/SimplerSelect';
 import { summaryFont, summaryTitle } from './SummaryPanelCommon';
-import { NodeParamsType, GraphType, SummaryData, NodeAttr } from 'types/Graph';
-import { KialiDispatch } from 'types/Redux';
+import { NodeParamsType, GraphType, SummaryData, NodeAttr } from '../../types/Graph';
+import { KialiDispatch } from '../../types/Redux';
 import { bindActionCreators } from 'redux';
-import { responseFlags } from 'utils/ResponseFlags';
+import { responseFlags } from '../../utils/ResponseFlags';
 import { isParentKiosk, kioskContextMenuAction } from '../../components/Kiosk/KioskActions';
 import { Visualization, Node } from '@patternfly/react-topology';
-import { elems, selectAnd } from 'pages/GraphPF/GraphPFElems';
-import { FocusNode } from 'pages/GraphPF/GraphPF';
+import { elems, selectAnd } from '../../pages/GraphPF/GraphPFElems';
+import { FocusNode } from '../../pages/GraphPF/GraphPF';
 import { GraphSelectorBuilder } from './GraphSelector';
 
 type ReduxProps = {

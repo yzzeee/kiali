@@ -3,15 +3,15 @@ import { Grid, GridItem } from '@patternfly/react-core';
 import { AppDescription } from './AppDescription';
 import { App } from '../../types/App';
 import { RenderComponentScroll } from '../../components/Nav/Page';
-import { DurationInSeconds } from 'types/Common';
-import { GraphDataSource } from 'services/GraphDataSource';
-import { AppHealth } from 'types/Health';
-import { kialiStyle } from 'styles/StyleUtils';
+import { DurationInSeconds } from '../../types/Common';
+import { GraphDataSource } from '../../services/GraphDataSource';
+import { AppHealth } from '../../types/Health';
+import { kialiStyle } from '../../styles/StyleUtils';
 import { GraphEdgeTapEvent } from '../../components/CytoscapeGraph/CytoscapeGraph';
 import { history, URLParam } from '../../app/History';
 import { MiniGraphCard } from '../../components/CytoscapeGraph/MiniGraphCard';
-import { serverConfig } from 'config';
-import { MiniGraphCardPF } from 'pages/GraphPF/MiniGraphCardPF';
+import { serverConfig } from '../../config';
+import { MiniGraphCardPF } from '../../pages/GraphPF/MiniGraphCardPF';
 
 type AppInfoProps = {
   app?: App;

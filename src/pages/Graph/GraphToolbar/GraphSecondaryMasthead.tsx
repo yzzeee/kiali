@@ -1,11 +1,11 @@
 import React from 'react';
-import { SecondaryMasthead } from 'components/Nav/SecondaryMasthead';
-import { NamespaceDropdown } from 'components/NamespaceDropdown';
-import { kialiStyle } from 'styles/StyleUtils';
-import { TourStop } from 'components/Tour/TourStop';
+import { SecondaryMasthead } from '../../../components/Nav/SecondaryMasthead';
+import { NamespaceDropdown } from '../../../components/NamespaceDropdown';
+import { kialiStyle } from '../../../styles/StyleUtils';
+import { TourStop } from '../../../components/Tour/TourStop';
 import { GraphTourStops } from '../GraphHelpTour';
-import { ToolbarDropdown } from 'components/ToolbarDropdown/ToolbarDropdown';
-import { GraphType } from 'types/Graph';
+import { ToolbarDropdown } from '../../../components/ToolbarDropdown/ToolbarDropdown';
+import { GraphType } from '../../../types/Graph';
 import * as _ from 'lodash';
 import { TimeDurationComponent } from '../../../components/Time/TimeDurationComponent';
 import { GraphTraffic } from './GraphTraffic';

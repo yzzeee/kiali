@@ -1,4 +1,4 @@
-import { serverConfig } from 'config';
+import { serverConfig } from '../../config';
 import { SortField } from '../../types/SortFilters';
 import { NamespaceInfo } from './NamespaceInfo';
 

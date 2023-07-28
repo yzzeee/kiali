@@ -5,7 +5,7 @@ import { connect } from 'react-redux';
 import { Namespace } from '../../types/Namespace';
 import { ActionGroup, Button, ButtonVariant, Form, FormGroup, TextInput } from '@patternfly/react-core';
 import { RenderContent } from '../../components/Nav/Page';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../styles/StyleUtils';
 import { GatewayForm, GATEWAY, GATEWAYS, GatewayState, initGateway, isGatewayStateValid } from './GatewayForm';
 import {
   K8sGatewayForm,
@@ -67,8 +67,8 @@ import {
   SERVICE_ENTRY,
   ServiceEntryState
 } from './ServiceEntryForm';
-import { ConfigPreviewItem, IstioConfigPreview } from 'components/IstioConfigPreview/IstioConfigPreview';
-import { isValid } from 'utils/Common';
+import { ConfigPreviewItem, IstioConfigPreview } from '../../components/IstioConfigPreview/IstioConfigPreview';
+import { isValid } from '../../utils/Common';
 
 type Props = {
   objectType: string;

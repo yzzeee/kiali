@@ -15,7 +15,7 @@ import { SortField } from '../../types/SortFilters';
 import { NamespaceInfo } from './NamespaceInfo';
 import * as Sorts from './Sorts';
 import * as Filters from './Filters';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../styles/StyleUtils';
 import { PFColors } from '../../components/Pf/PfColors';
 import { TimeDurationComponent } from '../../components/Time/TimeDurationComponent';
 import { KialiDispatch } from '../../types/Redux';

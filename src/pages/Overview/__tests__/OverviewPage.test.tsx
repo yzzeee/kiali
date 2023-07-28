@@ -9,8 +9,8 @@ import * as API from '../../../services/Api';
 import { AppHealth, NamespaceAppHealth, HEALTHY, FAILURE, DEGRADED } from '../../../types/Health';
 import { store } from '../../../store/ConfigStore';
 import { MTLSStatuses } from '../../../types/TLSStatus';
-import { FilterType, ActiveFiltersInfo } from 'types/Filters';
-import { healthFilter } from 'components/Filters/CommonFilters';
+import { FilterType, ActiveFiltersInfo } from '../../../types/Filters';
+import { healthFilter } from '../../../components/Filters/CommonFilters';
 import { nameFilter } from '../Filters';
 import { DEFAULT_LABEL_OPERATION } from '../../../types/Filters';
 

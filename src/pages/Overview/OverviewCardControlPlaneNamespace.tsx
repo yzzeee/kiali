@@ -2,17 +2,17 @@ import * as React from 'react';
 
 import { Datapoint, Metric } from '../../types/Metrics';
 
-import 'components/Charts/Charts.css';
-import { SparklineChart } from 'components/Charts/SparklineChart';
-import { VCLine, RichDataPoint } from 'types/VictoryChartInfo';
-import { PFColors } from 'components/Pf/PfColors';
-import { toVCLine } from 'utils/VictoryChartsUtils';
-import { DurationInSeconds } from 'types/Common';
-import { getName } from 'utils/RateIntervals';
+import '../../components/Charts/Charts.css';
+import { SparklineChart } from '../../components/Charts/SparklineChart';
+import { VCLine, RichDataPoint } from '../../types/VictoryChartInfo';
+import { PFColors } from '../../components/Pf/PfColors';
+import { toVCLine } from '../../utils/VictoryChartsUtils';
+import { DurationInSeconds } from '../../types/Common';
+import { getName } from '../../utils/RateIntervals';
 import { Card, CardBody, Flex, FlexItem, Grid, GridItem, Tooltip, TooltipPosition } from '@patternfly/react-core';
-import { KialiIcon } from 'config/KialiIcon';
-import { kialiStyle } from 'styles/StyleUtils';
-import { IstiodResourceThresholds } from 'types/IstioStatus';
+import { KialiIcon } from '../../config/KialiIcon';
+import { kialiStyle } from '../../styles/StyleUtils';
+import { IstiodResourceThresholds } from '../../types/IstioStatus';
 
 export const infoStyle = kialiStyle({
   margin: '0px 0px -1px 4px'

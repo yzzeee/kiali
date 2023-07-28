@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Tab, Tooltip } from '@patternfly/react-core';
 import { Node, Visualization } from '@patternfly/react-topology';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../styles/StyleUtils';
 import _ from 'lodash';
 import { RateTableGrpc, RateTableHttp, RateTableTcp } from '../../components/SummaryPanel/RateTable';
 import { RequestChart, StreamChart } from '../../components/SummaryPanel/RpsChart';
@@ -30,15 +30,15 @@ import {
 import { Datapoint, IstioMetricsMap, Labels } from '../../types/Metrics';
 import { IstioMetricsOptions } from '../../types/MetricsOptions';
 import { CancelablePromise, makeCancelablePromise, PromisesRegistry } from '../../utils/CancelablePromises';
-import { KialiIcon } from 'config/KialiIcon';
-import { SimpleTabs } from 'components/Tab/SimpleTabs';
-import { ValidationStatus } from 'types/IstioObjects';
-import { Namespace } from 'types/Namespace';
-import { ValidationSummary } from 'components/Validations/ValidationSummary';
+import { KialiIcon } from '../../config/KialiIcon';
+import { SimpleTabs } from '../../components/Tab/SimpleTabs';
+import { ValidationStatus } from '../../types/IstioObjects';
+import { Namespace } from '../../types/Namespace';
+import { ValidationSummary } from '../../components/Validations/ValidationSummary';
 import { PFColors } from '../../components/Pf/PfColors';
 import { ValidationSummaryLink } from '../../components/Link/ValidationSummaryLink';
-import { PFBadge, PFBadges } from 'components/Pf/PfBadges';
-import { edgesIn, edgesOut, elems, leafNodes, NodeData, select } from 'pages/GraphPF/GraphPFElems';
+import { PFBadge, PFBadges } from '../../components/Pf/PfBadges';
+import { edgesIn, edgesOut, elems, leafNodes, NodeData, select } from '../../pages/GraphPF/GraphPFElems';
 
 type SummaryPanelGraphMetricsState = {
   grpcRequestIn: Datapoint[];

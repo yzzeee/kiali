@@ -5,9 +5,9 @@ import { TextInputBase as TextInput } from '@patternfly/react-core/dist/js/compo
 import { isGatewayHostValid } from '../../utils/IstioConfigUtils';
 import { cellWidth, ICell, Table, TableBody, TableHeader } from '@patternfly/react-table';
 import { PlusCircleIcon, TrashIcon } from '@patternfly/react-icons';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../styles/StyleUtils';
 import { PFColors } from '../../components/Pf/PfColors';
-import { isValid } from 'utils/Common';
+import { isValid } from '../../utils/Common';
 import { FormEvent } from 'react';
 
 export const SERVICE_ENTRY = 'ServiceEntry';

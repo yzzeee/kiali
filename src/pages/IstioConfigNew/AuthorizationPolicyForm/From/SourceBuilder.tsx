@@ -10,9 +10,9 @@ import {
 } from '@patternfly/react-core';
 import { PlusCircleIcon } from '@patternfly/react-icons';
 import { isValidIp } from '../../../../utils/IstioConfigUtils';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../../../styles/StyleUtils';
 import { PFColors } from '../../../../components/Pf/PfColors';
-import { isValid } from 'utils/Common';
+import { isValid } from '../../../../utils/Common';
 
 type Props = {
   onAddFrom: (source: { [key: string]: string[] }) => void;

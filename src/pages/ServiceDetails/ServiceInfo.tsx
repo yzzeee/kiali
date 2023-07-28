@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../styles/StyleUtils';
 import { Grid, GridItem, Stack, StackItem } from '@patternfly/react-core';
 import { ServiceId } from '../../types/ServiceId';
 import { ServiceDescription } from './ServiceDescription';
@@ -16,9 +16,9 @@ import {
   Validations
 } from '../../types/IstioObjects';
 import { RenderComponentScroll } from '../../components/Nav/Page';
-import { PromisesRegistry } from 'utils/CancelablePromises';
-import { DurationInSeconds } from 'types/Common';
-import { GraphDataSource } from 'services/GraphDataSource';
+import { PromisesRegistry } from '../../utils/CancelablePromises';
+import { DurationInSeconds } from '../../types/Common';
+import { GraphDataSource } from '../../services/GraphDataSource';
 import {
   drToIstioItems,
   vsToIstioItems,
@@ -42,8 +42,8 @@ import { WizardAction, WizardMode } from '../../components/IstioWizards/WizardAc
 import { deleteServiceTrafficRouting } from '../../services/Api';
 import * as AlertUtils from '../../utils/AlertUtils';
 import { triggerRefresh } from '../../hooks/refresh';
-import { serverConfig } from 'config';
-import { MiniGraphCardPF } from 'pages/GraphPF/MiniGraphCardPF';
+import { serverConfig } from '../../config';
+import { MiniGraphCardPF } from '../../pages/GraphPF/MiniGraphCardPF';
 
 interface Props extends ServiceId {
   cluster?: string;

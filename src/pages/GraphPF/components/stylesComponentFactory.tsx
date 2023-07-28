@@ -11,19 +11,19 @@ import {
   withSelection
 } from '@patternfly/react-topology';
 import { ExternalLinkAltIcon } from '@patternfly/react-icons';
-import { clickHandler, ContextMenuOption, getOptions } from 'components/CytoscapeGraph/ContextMenu/NodeContextMenu';
+import { clickHandler, ContextMenuOption, getOptions } from '../../../components/CytoscapeGraph/ContextMenu/NodeContextMenu';
 import * as React from 'react';
 import { StyleEdge } from '../styles/styleEdge';
 import { StyleGroup } from '../styles/styleGroup';
 import { StyleNode } from '../styles/styleNode';
-import { BoxByType, DecoratedGraphNodeData, NodeParamsType, NodeType } from 'types/Graph';
+import { BoxByType, DecoratedGraphNodeData, NodeParamsType, NodeType } from '../../../types/Graph';
 import * as AlertUtils from '../../../utils/AlertUtils';
-import { MessageType } from 'types/MessageCenter';
-import { store } from 'store/ConfigStore';
-import { NamespaceActions } from 'actions/NamespaceAction';
-import { GraphUrlParams, makeNodeGraphUrlFromParams } from 'components/Nav/NavUtils';
+import { MessageType } from '../../../types/MessageCenter';
+import { store } from '../../../store/ConfigStore';
+import { NamespaceActions } from '../../../actions/NamespaceAction';
+import { GraphUrlParams, makeNodeGraphUrlFromParams } from '../../../components/Nav/NavUtils';
 import { history } from '../../../app/History';
-import { GraphNodeDoubleTapEvent } from 'components/CytoscapeGraph/CytoscapeGraph';
+import { GraphNodeDoubleTapEvent } from '../../../components/CytoscapeGraph/CytoscapeGraph';
 
 type ContextMenuOptionPF = ContextMenuOption & {
   altClickHandler?: (node: GraphElement) => void;

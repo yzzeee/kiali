@@ -10,17 +10,17 @@ import { GraphHelpFind } from '../../../pages/Graph/GraphHelpFind';
 import * as CytoscapeGraphUtils from '../../../components/CytoscapeGraph/CytoscapeGraphUtils';
 import { EdgeLabelMode, NodeType, Layout, EdgeMode, NodeAttr, EdgeAttr } from '../../../types/Graph';
 import * as AlertUtils from '../../../utils/AlertUtils';
-import { KialiIcon, defaultIconStyle } from 'config/KialiIcon';
-import { kialiStyle } from 'styles/StyleUtils';
-import { TourStop } from 'components/Tour/TourStop';
-import { GraphTourStops } from 'pages/Graph/GraphHelpTour';
-import { TimeInMilliseconds } from 'types/Common';
-import { KialiDispatch } from 'types/Redux';
-import { AutoComplete } from 'utils/AutoComplete';
-import { HEALTHY, NA, NOT_READY } from 'types/Health';
+import { KialiIcon, defaultIconStyle } from '../../../config/KialiIcon';
+import { kialiStyle } from '../../../styles/StyleUtils';
+import { TourStop } from '../../../components/Tour/TourStop';
+import { GraphTourStops } from '../../../pages/Graph/GraphHelpTour';
+import { TimeInMilliseconds } from '../../../types/Common';
+import { KialiDispatch } from '../../../types/Redux';
+import { AutoComplete } from '../../../utils/AutoComplete';
+import { HEALTHY, NA, NOT_READY } from '../../../types/Health';
 import { GraphFindOptions } from './GraphFindOptions';
 import { history, HistoryManager, URLParam } from '../../../app/History';
-import { isValid } from 'utils/Common';
+import { isValid } from '../../../utils/Common';
 import {
   descendents,
   EdgeData,
@@ -30,8 +30,8 @@ import {
   SelectExp,
   selectOr,
   SelectOr
-} from 'pages/GraphPF/GraphPFElems';
-import { FIT_PADDING } from 'pages/GraphPF/GraphPF';
+} from '../../../pages/GraphPF/GraphPFElems';
+import { FIT_PADDING } from '../../../pages/GraphPF/GraphPF';
 import { isArray } from 'lodash';
 
 type ReduxProps = {

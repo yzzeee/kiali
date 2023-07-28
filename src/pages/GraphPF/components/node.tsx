@@ -35,8 +35,8 @@ import {
   NODE_SHADOW_FILTER_ID_DANGER,
   NODE_SHADOW_FILTER_ID_HOVER
 } from '@patternfly/react-topology/dist/esm/components/nodes/NodeShadows';
-import { PFColors } from 'components/Pf/PfColors';
-import { kialiStyle } from 'styles/StyleUtils';
+import { PFColors } from '../../../components/Pf/PfColors';
+import { kialiStyle } from '../../../styles/StyleUtils';
 
 // This is a copy of PFT DefaultNode (v4.68.3), then modified.  I don't see a better way to really
 // do this because DefaultNode doesn't really seem itself extensible and to add certain behavior you have

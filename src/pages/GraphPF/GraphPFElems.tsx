@@ -13,8 +13,8 @@ import {
   NodeShape,
   NodeStatus
 } from '@patternfly/react-topology';
-import { PFBadges, PFBadgeType } from 'components/Pf/PfBadges';
-import { icons, serverConfig } from 'config';
+import { PFBadges, PFBadgeType } from '../../components/Pf/PfBadges';
+import { icons, serverConfig } from '../../config';
 import {
   BoxByType,
   CLUSTER_DEFAULT,
@@ -28,13 +28,13 @@ import {
   Protocol,
   TrafficRate,
   UNKNOWN
-} from 'types/Graph';
-import { DEGRADED, FAILURE } from 'types/Health';
-import { Namespace } from 'types/Namespace';
+} from '../../types/Graph';
+import { DEGRADED, FAILURE } from '../../types/Health';
+import { Namespace } from '../../types/Namespace';
 import _ from 'lodash';
-import { PFColors } from 'components/Pf/PfColors';
-import { getEdgeHealth } from 'types/ErrorRate/GraphEdgeStatus';
-import { Span } from 'types/JaegerInfo';
+import { PFColors } from '../../components/Pf/PfColors';
+import { getEdgeHealth } from '../../types/ErrorRate/GraphEdgeStatus';
+import { Span } from '../../types/JaegerInfo';
 
 // Utilities for working with PF Topology
 // - most of these add cytoscape-like functions

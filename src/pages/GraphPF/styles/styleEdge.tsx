@@ -2,7 +2,7 @@ import { Edge, observer, ScaleDetailsLevel, WithSelectionProps } from '@patternf
 import { BaseEdge } from '../components/edge';
 import useDetailsLevel from '@patternfly/react-topology/dist/esm/hooks/useDetailsLevel';
 import * as React from 'react';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../../styles/StyleUtils';
 
 // This is the registered Edge component override that utilizes our customized Edge.tsx component.
 

@@ -3,7 +3,7 @@ import { IstioLevelToSeverity, ObjectCheck, ValidationMessage, ValidationTypes }
 import { Flex, FlexItem, Stack, StackItem, Title, TitleSizes, Tooltip, TooltipPosition } from '@patternfly/react-core';
 import { Validation } from '../../../components/Validations/Validation';
 import { KialiIcon } from '../../../config/KialiIcon';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../../styles/StyleUtils';
 
 interface Props {
   messages?: ValidationMessage[];

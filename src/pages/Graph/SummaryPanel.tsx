@@ -1,24 +1,24 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../styles/StyleUtils';
 import { SummaryPanelEdge } from './SummaryPanelEdge';
 import { SummaryPanelGraph } from './SummaryPanelGraph';
 import { SummaryPanelAppBox } from './SummaryPanelAppBox';
 import { SummaryPanelPropType, BoxByType, SummaryData, NodeAttr } from '../../types/Graph';
-import { KialiIcon } from 'config/KialiIcon';
+import { KialiIcon } from '../../config/KialiIcon';
 import { SummaryPanelNode } from './SummaryPanelNode';
-import { JaegerState } from 'reducers/JaegerState';
+import { JaegerState } from '../../reducers/JaegerState';
 import { SummaryPanelTraceDetails } from './SummaryPanelTraceDetails';
-import { KialiAppState } from 'store/Store';
+import { KialiAppState } from '../../store/Store';
 import { SummaryPanelClusterBox } from './SummaryPanelClusterBox';
 import { SummaryPanelNamespaceBox } from './SummaryPanelNamespaceBox';
-import { GraphTourStops } from 'pages/Graph/GraphHelpTour';
-import { TourStop } from 'components/Tour/TourStop';
+import { GraphTourStops } from '../../pages/Graph/GraphHelpTour';
+import { TourStop } from '../../components/Tour/TourStop';
 import { summaryPanelWidth } from './SummaryPanelCommon';
-import { WizardAction, WizardMode } from 'components/IstioWizards/WizardActions';
+import { WizardAction, WizardMode } from '../../components/IstioWizards/WizardActions';
 import { ServiceDetailsInfo } from '../../types/ServiceInfo';
 import { PeerAuthentication } from '../../types/IstioObjects';
-import { FocusNode } from 'pages/GraphPF/GraphPF';
+import { FocusNode } from '../../pages/GraphPF/GraphPF';
 
 type SummaryPanelState = {
   isVisible: boolean;

@@ -24,7 +24,7 @@ import {
   VisualizationSurface,
   Edge
 } from '@patternfly/react-topology';
-import { GraphData } from 'pages/Graph/GraphPage';
+import { GraphData } from '../../pages/Graph/GraphPage';
 import * as React from 'react';
 import {
   BoxByType,
@@ -36,8 +36,8 @@ import {
   NodeType,
   Protocol,
   UNKNOWN
-} from 'types/Graph';
-import { JaegerTrace } from 'types/JaegerInfo';
+} from '../../types/Graph';
+import { JaegerTrace } from '../../types/JaegerInfo';
 import { stylesComponentFactory } from './components/stylesComponentFactory';
 import { elementFactory } from './elements/elementFactory';
 import {
@@ -56,13 +56,13 @@ import {
 import { layoutFactory } from './layouts/layoutFactory';
 import { hideTrace, showTrace } from './TracePF';
 import { GraphHighlighterPF } from './GraphHighlighterPF';
-import { TimeInMilliseconds } from 'types/Common';
-import { KialiConcentricGraph } from 'components/CytoscapeGraph/graphs/KialiConcentricGraph';
-import { KialiDagreGraph } from 'components/CytoscapeGraph/graphs/KialiDagreGraph';
-import { KialiGridGraph } from 'components/CytoscapeGraph/graphs/KialiGridGraph';
-import { KialiBreadthFirstGraph } from 'components/CytoscapeGraph/graphs/KialiBreadthFirstGraph';
-import { HistoryManager, URLParam } from 'app/History';
-import { tcpTimerConfig, timerConfig } from 'components/CytoscapeGraph/TrafficAnimation/AnimationTimerConfig';
+import { TimeInMilliseconds } from '../../types/Common';
+import { KialiConcentricGraph } from '../../components/CytoscapeGraph/graphs/KialiConcentricGraph';
+import { KialiDagreGraph } from '../../components/CytoscapeGraph/graphs/KialiDagreGraph';
+import { KialiGridGraph } from '../../components/CytoscapeGraph/graphs/KialiGridGraph';
+import { KialiBreadthFirstGraph } from '../../components/CytoscapeGraph/graphs/KialiBreadthFirstGraph';
+import { HistoryManager, URLParam } from '../../app/History';
+import { tcpTimerConfig, timerConfig } from '../../components/CytoscapeGraph/TrafficAnimation/AnimationTimerConfig';
 
 let initialLayout = false;
 let requestFit = false;

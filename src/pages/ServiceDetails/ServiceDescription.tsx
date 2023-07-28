@@ -4,7 +4,7 @@ import { ServiceDetailsInfo, WorkloadOverview } from '../../types/ServiceInfo';
 import { AppWorkload } from '../../types/App';
 import { isMultiCluster, serverConfig } from '../../config';
 import { Labels } from '../../components/Label/Labels';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../styles/StyleUtils';
 import { LocalTime } from '../../components/Time/LocalTime';
 import { renderAPILogo } from '../../components/Logo/Logos';
 import { TextOrLink } from '../../components/TextOrLink';

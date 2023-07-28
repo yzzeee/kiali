@@ -1,9 +1,9 @@
 import { Stack, StackItem, Title, TitleSizes } from '@patternfly/react-core';
-import { ReferenceIstioObjectLink } from 'components/Link/IstioObjectLink';
-import { ServiceLink } from 'components/Link/ServiceLink';
-import { WorkloadLink } from 'components/Link/WorkloadLink';
+import { ReferenceIstioObjectLink } from '../../../components/Link/IstioObjectLink';
+import { ServiceLink } from '../../../components/Link/ServiceLink';
+import { WorkloadLink } from '../../../components/Link/WorkloadLink';
 import * as React from 'react';
-import { ObjectReference, ServiceReference, WorkloadReference } from 'types/IstioObjects';
+import { ObjectReference, ServiceReference, WorkloadReference } from '../../../types/IstioObjects';
 
 interface IstioConfigReferencesProps {
   objectReferences: ObjectReference[];

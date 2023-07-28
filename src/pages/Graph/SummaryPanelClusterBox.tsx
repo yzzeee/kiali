@@ -1,21 +1,21 @@
 import * as React from 'react';
 import { Tab, Tooltip } from '@patternfly/react-core';
 import { Node } from '@patternfly/react-topology';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../styles/StyleUtils';
 import { summaryFont, summaryHeader, summaryBodyTabs, summaryPanelWidth, getTitle } from './SummaryPanelCommon';
-import { RateTableGrpc, RateTableHttp, RateTableTcp } from 'components/SummaryPanel/RateTable';
-import { SimpleTabs } from 'components/Tab/SimpleTabs';
-import { PFColors } from 'components/Pf/PfColors';
-import { KialiIcon } from 'config/KialiIcon';
-import { SummaryPanelPropType, NodeType, TrafficRate, NodeAttr } from 'types/Graph';
+import { RateTableGrpc, RateTableHttp, RateTableTcp } from '../../components/SummaryPanel/RateTable';
+import { SimpleTabs } from '../../components/Tab/SimpleTabs';
+import { PFColors } from '../../components/Pf/PfColors';
+import { KialiIcon } from '../../config/KialiIcon';
+import { SummaryPanelPropType, NodeType, TrafficRate, NodeAttr } from '../../types/Graph';
 import {
   getAccumulatedTrafficRateGrpc,
   getAccumulatedTrafficRateHttp,
   getAccumulatedTrafficRateTcp
-} from 'utils/TrafficRate';
-import { PFBadge, PFBadges } from 'components/Pf/PfBadges';
-import { KialiPageLink } from 'components/Link/KialiPageLink';
-import { descendents, edgesIn, edgesInOut, edgesOut, elems, select } from 'pages/GraphPF/GraphPFElems';
+} from '../../utils/TrafficRate';
+import { PFBadge, PFBadges } from '../../components/Pf/PfBadges';
+import { KialiPageLink } from '../../components/Link/KialiPageLink';
+import { descendents, edgesIn, edgesInOut, edgesOut, elems, select } from '../../pages/GraphPF/GraphPFElems';
 
 type SummaryPanelClusterBoxState = {
   clusterBox: any;

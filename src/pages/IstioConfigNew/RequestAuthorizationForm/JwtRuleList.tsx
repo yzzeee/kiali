@@ -1,6 +1,6 @@
 import { JWTRule } from '../../../types/IstioObjects';
 import { cellWidth, ICell, Table, TableBody, TableHeader } from '@patternfly/react-table';
-import { kialiStyle } from 'styles/StyleUtils';
+import { kialiStyle } from '../../../styles/StyleUtils';
 import { PFColors } from '../../../components/Pf/PfColors';
 import * as React from 'react';
 import { formatJwtField } from './JwtRuleBuilder';

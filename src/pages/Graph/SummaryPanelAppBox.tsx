@@ -22,12 +22,12 @@ import { Response } from '../../services/Api';
 import { IstioMetricsMap, Datapoint, Labels } from '../../types/Metrics';
 import { Reporter } from '../../types/MetricsOptions';
 import { CancelablePromise, makeCancelablePromise } from '../../utils/CancelablePromises';
-import { KialiIcon } from 'config/KialiIcon';
-import { decoratedNodeData } from 'components/CytoscapeGraph/CytoscapeGraphUtils';
+import { KialiIcon } from '../../config/KialiIcon';
+import { decoratedNodeData } from '../../components/CytoscapeGraph/CytoscapeGraphUtils';
 import { Dropdown, DropdownPosition, DropdownItem, KebabToggle, DropdownGroup } from '@patternfly/react-core';
-import { getOptions, clickHandler } from 'components/CytoscapeGraph/ContextMenu/NodeContextMenu';
-import { PFBadge, PFBadges } from 'components/Pf/PfBadges';
-import { edgesIn, edgesOut, select, selectAnd, selectOr } from 'pages/GraphPF/GraphPFElems';
+import { getOptions, clickHandler } from '../../components/CytoscapeGraph/ContextMenu/NodeContextMenu';
+import { PFBadge, PFBadges } from '../../components/Pf/PfBadges';
+import { edgesIn, edgesOut, select, selectAnd, selectOr } from '../../pages/GraphPF/GraphPFElems';
 
 type SummaryPanelAppBoxMetricsState = {
   grpcRequestIn: Datapoint[];

@@ -16,7 +16,7 @@ import { TextInputTypes } from '@patternfly/react-core';
 import { filterByLabel } from '../../helpers/LabelFilterHelper';
 import { istioTypeFilter } from '../IstioConfigList/FiltersAndSorts';
 import { ObjectReference } from '../../types/IstioObjects';
-import { serverConfig } from 'config';
+import { serverConfig } from '../../config';
 
 export const sortFields: SortField<AppListItem>[] = [
   {
