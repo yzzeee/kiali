@@ -8,7 +8,7 @@ import {
 import { SVGIconProps } from '@patternfly/react-icons/dist/js/createIcon';
 import { ValidationTypes } from '../../types/IstioObjects';
 import { Text, TextVariants } from '@patternfly/react-core';
-import './Validation.css';
+import './Validation.scss';
 import { PFColors } from '../../components/Pf/PfColors';
 
 type Props = ValidationDescription & {

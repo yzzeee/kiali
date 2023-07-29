@@ -6,7 +6,7 @@ import { PFColors } from '../../components/Pf/PfColors';
 import { toVCLine } from '../../utils/VictoryChartsUtils';
 import { SparklineChart } from '../../components/Charts/SparklineChart';
 
-import '../../components/Charts/Charts.css';
+import '../../components/Charts/Charts.scss';
 import { summaryTitle } from '../../pages/Graph/SummaryPanelCommon';
 
 export type ResponseTimeUnit = 's' | 'ms';

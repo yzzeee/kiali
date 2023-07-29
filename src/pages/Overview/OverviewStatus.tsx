@@ -8,7 +8,7 @@ import { healthFilter } from '../../components/Filters/CommonFilters';
 import { FilterSelected } from '../../components/Filters/StatefulFilters';
 import { createIcon } from '../../components/Health/Helper';
 
-import '../../components/Health/Health.css';
+import '../../components/Health/Health.scss';
 import { KialiAppState } from '../../store/Store';
 import { connect } from 'react-redux';
 import { isParentKiosk, kioskGraphAction } from '../../components/Kiosk/KioskActions';
